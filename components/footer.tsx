@@ -8,7 +8,7 @@ import { Checkbox } from "./ui/checkbox"
 export default function Footer()
 {
   return (
-    <footer className='bg-inherit text-white font-sans px-20 md:px-30 lg:px-40 pt-8'>
+    <footer className='bg-inherit text-white px-20 md:px-30 lg:px-40 pt-8'>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pb-8'>
         {/* Logo Section */}
         <div className='flex flex-col items-start'>
@@ -23,9 +23,9 @@ export default function Footer()
 
         {/* Company Address Section */}
         <div className='flex flex-col gap-4'>
-          <div className='text-white font-bold text-lg pb-2'>{FooterData.companyName}</div>
+          <div className='text-white font-bold text-base pb-2'>{FooterData.companyName}</div>
           {FooterData?.address.map((address, index) => (
-            <div key={index} className='flex flex-col justify-start text-sm'>
+            <div key={index} className='flex flex-col justify-start text-base'>
               <div className='text-[#BF9B30] font-bold'>{address.region}:</div>
               <div className='text-white/80'>{address.details}</div>
             </div>
@@ -34,8 +34,8 @@ export default function Footer()
 
         {/* Work Inquiries Section */}
         <div className='flex flex-col gap-4'>
-          <div className='text-white font-bold text-lg pb-2'>Work inquiries</div>
-          <div className='text-sm'>
+          <div className='text-white font-bold text-base pb-2'>Work inquiries</div>
+          <div className='text-base'>
             <div className='text-white/80'>Interested in working with us?</div>
             <a href={`mailto:${FooterData.email}`} className='text-[#BF9B30] hover:underline'>
               {FooterData.email}
@@ -45,7 +45,7 @@ export default function Footer()
 
         {/* Newsletter Signup Section */}
         <div className='flex flex-col gap-4'>
-          <div className='text-white font-bold text-lg pb-2'>Sign up for the newsletter</div>
+          <div className='text-white font-bold text-base pb-2'>Sign up for the newsletter</div>
           <div className='flex flex-col gap-4'>
             <div className='flex space-x-2'>
               <Input
