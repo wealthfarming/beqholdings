@@ -13,12 +13,13 @@ import HomeSection9 from '@/components/homepage/section9';
 import HomeSection10 from '@/components/homepage/section10';
 import HomeSection11 from '@/components/homepage/section11';
 import HomeSection12 from '@/components/homepage/section12';
+import PageHeader from '@/components/header';
 const HomePage = () => {
     const { t } = useTranslation();
 
     return (
         <div className="flex flex-col items-center justify-center min-h-screen gap-8">
-            <LanguageChange />
+            <PageHeader />
             <HomeSection1 />
             <HomeSection2 />
             <HomeSection3 />
@@ -31,6 +32,7 @@ const HomePage = () => {
             <HomeSection10 />
             <HomeSection11 />
             <HomeSection12 />
+            <LanguageChange />
         </div>
     );
 }

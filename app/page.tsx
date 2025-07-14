@@ -64,7 +64,6 @@ export default function Home() {
           ))}
         </NavigationMenuList>
       </NavigationMenu>
-      <LanguageChange />
     </div>
   );
 } 
