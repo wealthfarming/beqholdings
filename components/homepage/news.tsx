@@ -30,18 +30,23 @@ const data = [
 
 const NewsSections = () => {
   return (
-    <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
-      {data.map((item) => (
-        <PostCard
-          key={item.idPost}
-          id={item.idPost}
-          title={item.title}
-          category={item.category}
-          publicDate={new Date(item.time).toLocaleDateString()}
-          timeRead={item.timeRead}
-          image={item.image}
-        />
-      ))}
+    <section className="w-full px-16 py-8 ">
+      <div className="max-w-[1400px] mx-auto">
+        <h2 className="text-5xl font-bold mb-8">Recent News</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 ">
+          {data.map((item) => (
+            <PostCard
+              key={item.idPost}
+              id={item.idPost}
+              title={item.title}
+              category={item.category}
+              publicDate={new Date(item.time).toLocaleDateString()}
+              timeRead={item.timeRead}
+              image={item.image}
+            />
+          ))}
+        </div>
+      </div>
     </section>
   );
 }
