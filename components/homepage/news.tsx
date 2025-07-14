@@ -1,3 +1,15 @@
+import React from "react";
+
+
+type PostCardProps = {
+  id: string;
+  title: string;
+  category: string;
+  publicDate: string;
+  timeRead: string;
+  image: string;
+};
+
 const data = [
   {
     title: "Latest News",
@@ -27,14 +39,44 @@ const data = [
     idPost: '3423233'
   }
 ]
-
+const Url = "https://dev.be.landing.wealthfarming.org/"
 const NewsSections = () => {
+  const [Postdata, setPostData] = React.useState(data);
+  async function fetchData() {
+    try {
+      const response = await fetch('https://dev.be.landing.wealthfarming.org/api/posts?limit=10',
+        {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+          },
+        }
+      );
+      const result = await response.json();
+      const mapData = result.docs.map((item: any) => ({
+        idPost: item.id,
+        title: item.title,
+        category: item.category.title,
+        time: item.createdAt,
+        timeRead: '5 min read', // Assuming a static read time for simplicity
+        image:( Url + item.cover_image?.url )|| 'https://res.cloudinary.com/drkr1i9yz/image/upload/v1752231284/teamBeq_ben7nl.webp',
+      }));
+      setPostData(mapData);
+    }
+    catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  }
+  React.useEffect(() => {
+    fetchData();
+  }, []);
   return (
     <section className="w-full px-16 py-8 ">
       <div className="max-w-[1400px] mx-auto">
         <h2 className="text-5xl font-bold mb-8">Recent News</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 ">
-          {data.map((item) => (
+          {Postdata.map((item) => (
             <PostCard
               key={item.idPost}
               id={item.idPost}
@@ -52,15 +94,6 @@ const NewsSections = () => {
 }
 export default NewsSections;
 
-
-type PostCardProps = {
-  id: string;
-  title: string;
-  category: string;
-  publicDate: string;
-  timeRead: string;
-  image: string;
-};
 
 const PostCard: React.FC<PostCardProps> = ({
   id,
@@ -94,7 +127,7 @@ const PostCard: React.FC<PostCardProps> = ({
 
         <div>
           {/* Title */}
-          <h3 className="text-[1.75rem] font-semibold leading-snug ">
+          <h3 className="text-[1.5rem] font-semibold leading-snug line-clamp-3 ">
             {title}
           </h3>
 
