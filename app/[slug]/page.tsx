@@ -13,7 +13,7 @@ interface Post {
     createdAt: string;
     updatedAt: string;
   };
-  description: any; // Use any for complex rich text structure
+  description: any;
   image: {
     id: string;
     filename: string;
@@ -34,22 +34,20 @@ interface Post {
 
 // Export generateStaticParams for static site generation
 export async function generateStaticParams(): Promise<{ slug: string }[]> {
-  // Handle both single object and array cases
-  if (Array.isArray(newsData)) {
-    return newsData.map((post: Post) => ({
-      slug: post.slug,
-    }));
-  }
-  // Single object case
-  return [{ slug: newsData.slug }];
+  // Ensure newsData is treated as an array
+  return (newsData as Post[]).map((post: Post) => ({
+    slug: post.slug,
+  }));
 }
 
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
 
-  // Type newsData as Post and check slug
-  const post: Post = newsData;
-  if (post.slug !== slug) {
+  // Find the post with the matching slug
+  const post = (newsData as Post[]).find((p: Post) => p.slug === slug);
+
+  // If no post is found, return 404
+  if (!post) {
     notFound();
   }
 
