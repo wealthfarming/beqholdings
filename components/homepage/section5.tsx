@@ -97,7 +97,7 @@ const ProjectRate = ({ lable, value }: { lable: string, value: number }) => {
     }, [value]);
     return (
         <div className="flex flex-col items-start justify-center w-full gap-2">
-            <h6 className="text-[1.025rem] font-bold text-[#82838A]">
+            <h6 className="text-[1.025rem] font-bold text-[#BF9B30]">
                 {lable}
             </h6>
             <div className="w-full flex flex-row items-center justify-between gap-4">

@@ -4,15 +4,16 @@ import { Button } from "../ui/button";
 import { ArrowRightIcon } from "@phosphor-icons/react"
 const HomeSection2 = () => {
     return (
-        <section className="py-8 w-full mx-auto ">
+        <section className="py-8 w-full mx-auto md:px-32 px-8 ">
             <div className="flex flex-col items-center justify-center w-full">
-                <div className="flex flex-col lg:flex-row md:items-start justify-center w-full md:w-[85%] lg:w-2/3  mx-auto">
-                    <div className="relative w-full xl:w-[50%] h-[40vh] flex items-center justify-center">
+                <div className="flex flex-col lg:flex-row md:items-start justify-center w-full  mx-auto">
+                    <div className="relative lg:w-1/2 w-full h-[40vh] flex items-center justify-center">
                         <Image src="https://res.cloudinary.com/drkr1i9yz/image/upload/v1752202348/dashboardlive.ccpi_.vn_assets_css_fonts_fontawesome-webfont.ttf_v4.6.3-768x542_lpo3hn.png" alt="Logo"
-                            fill
+                            width={768}
+                            height={542}
                             className="object-fill w-full h-[40vh]" />
                     </div>
-                    <div className="text-left flex flex-col xl:w-[50%] ml-8 mt-8 lg:mt-0">
+                    <div className="text-left flex flex-col lg:w-[50%] ml-8 mt-8 lg:mt-0">
                         <h6 className="text-[.9rem] font-thin mb-4 capitalize">
                             INDEXES DASHBOARD
                         </h6>
