@@ -14,6 +14,7 @@ import HomeSection10 from '@/components/homepage/section10';
 import HomeSection11 from '@/components/homepage/section11';
 import HomeSection12 from '@/components/homepage/section12';
 import PageHeader from '@/components/header';
+import NewsSections from '@/components/homepage/news';
 const HomePage = () => {
     const { t } = useTranslation();
 
@@ -29,6 +30,7 @@ const HomePage = () => {
             <HomeSection7 />
             <HomeSection8 />
             <HomeSection9 />
+            <NewsSections />
             <HomeSection10 />
             <HomeSection11 />
             <HomeSection12 />
