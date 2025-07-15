@@ -60,7 +60,7 @@ const NewsSections = () => {
         category: item.category.title,
         time: item.createdAt,
         timeRead: '5 min read', // Assuming a static read time for simplicity
-        image:( Url + item.cover_image?.url )|| 'https://res.cloudinary.com/drkr1i9yz/image/upload/v1752231284/teamBeq_ben7nl.webp',
+        image: (item.cover_image) || 'https://res.cloudinary.com/drkr1i9yz/image/upload/v1752229365/oh__img137_mdf1iy.jpg',
       }));
       setPostData(mapData);
     }
@@ -72,11 +72,14 @@ const NewsSections = () => {
     fetchData();
   }, []);
   return (
-    <section className="w-full px-16 py-8 ">
+    <section className="w-full px-8 md:px-16 py-8 ">
       <div className="max-w-[1400px] mx-auto">
         <h2 className="text-5xl font-bold mb-8">Recent News</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 ">
-          {Postdata.map((item) => (
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 ">
+          {(typeof window !== "undefined" && window.innerWidth < 768
+            ? Postdata.slice(0, 5)
+            : Postdata
+          ).map((item) => (
             <PostCard
               key={item.idPost}
               id={item.idPost}
@@ -106,7 +109,7 @@ const PostCard: React.FC<PostCardProps> = ({
   return (
     <div
       key={id}
-      className="relative w-[270px] h-[280px] rounded-md overflow-hidden text-white shadow-md"
+      className="relative w-full md:w-[270px] h-[50vh] md:h-[280px] rounded-md overflow-hidden text-white shadow-md"
     >
       {/* Background Image */}
       <img
