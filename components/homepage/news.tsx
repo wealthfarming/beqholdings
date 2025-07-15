@@ -44,7 +44,7 @@ const NewsSections = () => {
   const [Postdata, setPostData] = React.useState(data);
   async function fetchData() {
     try {
-      const response = await fetch('https://dev.be.landing.wealthfarming.org/api/posts?limit=10',
+      const response = await fetch('https://dev.be.landing.wealthfarming.org/api/posts?limit=8',
         {
           method: 'GET',
           headers: {
@@ -74,22 +74,24 @@ const NewsSections = () => {
   return (
     <section className="w-full px-8 md:px-16 py-8 ">
       <div className="max-w-[1400px] mx-auto">
-        <h2 className="text-5xl font-bold mb-8">Recent News</h2>
-        <div className="flex flex-wrap gap-x-6 gap-y-6 ">
-          {(typeof window !== "undefined" && window.innerWidth < 768
-            ? Postdata.slice(0, 5)
-            : Postdata
-          ).map((item) => (
-            <PostCard
-              key={item.idPost}
-              id={item.idPost}
-              title={item.title}
-              category={item.category}
-              publicDate={new Date(item.time).toLocaleDateString()}
-              timeRead={item.timeRead}
-              image={item.image}
-            />
-          ))}
+        <div className="flex flex-col items-center justify-center mb-8">
+          <h2 className="text-5xl w-full text-left font-bold mb-8">Recent News</h2>
+          <div className="grid justify-evenly justify-items-center content-evenly grid-cols-1 lg:grid-cols-4 gap-8 w-fit overflow-y-hidden max-w-[1400px]">
+            {(typeof window !== "undefined" && window.innerWidth < 768
+              ? Postdata.slice(0, 5)
+              : Postdata
+            ).map((item) => (
+              <PostCard
+                key={item.idPost}
+                id={item.idPost}
+                title={item.title}
+                category={item.category}
+                publicDate={new Date(item.time).toLocaleDateString()}
+                timeRead={item.timeRead}
+                image={item.image}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>
@@ -109,7 +111,7 @@ const PostCard: React.FC<PostCardProps> = ({
   return (
     <div
       key={id}
-      className="relative w-full md:w-[260px] h-[50vh] md:h-[270px] rounded-md overflow-hidden text-white shadow-md"
+      className="relative w-full lg:w-[260px] h-[50vh] lg:h-[270px] rounded-md overflow-hidden text-white shadow-lg"
     >
       {/* Background Image */}
       <img
