@@ -17,9 +17,9 @@ const LanguageChange = () => {
     };
 
     return (
-        <div className="space-x-2 fixed bottom-4 right-4  p-4 rounded shadow-lg">
+        <div className="space-x-2 fixed bottom-4 right-4 rounded bg-black z-[500]">
             <Select onValueChange={changeLanguage} defaultValue={i18n.language} >
-                <SelectTrigger className="w-32 rounded-[4px] !ring-0 hover:ring-1 focus:ring-1">
+                <SelectTrigger className="w-32 rounded-[4px] !ring-0 hover:ring-1 focus:ring-1 bg-black text-white">
                     <SelectValue placeholder="Select Language" />
                 </SelectTrigger>
                 <SelectContent>
