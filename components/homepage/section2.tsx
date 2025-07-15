@@ -4,8 +4,8 @@ import { Button } from "../ui/button";
 import { ArrowRightIcon } from "@phosphor-icons/react"
 const HomeSection2 = () => {
     return (
-        <section className="py-8 w-full md:w-[85%] mx-auto xl:px-32 px-0 ">
-            <div className="flex flex-col items-center justify-center max-w-[1300px] w-full">
+        <section className="py-8 w-full md:w-[85%] mx-auto px-0 ">
+            <div className="flex flex-col items-center justify-center max-w-[1400px] w-full">
                 <div className="flex flex-col xl:flex-row xl:items-start justify-center w-full mx-auto">
                     <div className="relative xl:w-1/2 w-full h-[50vh] flex items-center justify-center">
                         <Image src="https://res.cloudinary.com/drkr1i9yz/image/upload/v1752202348/dashboardlive.ccpi_.vn_assets_css_fonts_fontawesome-webfont.ttf_v4.6.3-768x542_lpo3hn.png" alt="Logo"
