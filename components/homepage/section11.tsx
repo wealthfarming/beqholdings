@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HomeSection11 = () => {
     return (
-        <section className="w-full mx-auto flex flex-col items-center justify-between py-8 md:py-16">
+        <section className="w-full mx-auto flex flex-col items-center justify-between py-8 md:py-8">
             <div className="h-[30vh] md:h-[550px] w-full overflow-hidden relative">
                 <Image src="https://res.cloudinary.com/drkr1i9yz/image/upload/v1752457607/shutterstock_311313911-1_pibshj.jpg"
                     alt="Section11-top Image"

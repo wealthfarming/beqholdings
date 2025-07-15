@@ -75,7 +75,7 @@ const NewsSections = () => {
     <section className="w-full px-8 md:px-16 py-8 ">
       <div className="max-w-[1400px] mx-auto">
         <h2 className="text-5xl font-bold mb-8">Recent News</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 ">
+        <div className="flex flex-wrap gap-x-6 gap-y-6 ">
           {(typeof window !== "undefined" && window.innerWidth < 768
             ? Postdata.slice(0, 5)
             : Postdata
@@ -109,7 +109,7 @@ const PostCard: React.FC<PostCardProps> = ({
   return (
     <div
       key={id}
-      className="relative w-full md:w-[270px] h-[50vh] md:h-[280px] rounded-md overflow-hidden text-white shadow-md"
+      className="relative w-full md:w-[260px] h-[50vh] md:h-[270px] rounded-md overflow-hidden text-white shadow-md"
     >
       {/* Background Image */}
       <img
