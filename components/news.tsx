@@ -55,12 +55,10 @@ export default function News({ postsByLanguage, recentPosts, previewPosts, slug 
   const [isClient, setIsClient] = useState(false);
   const [post, setPost] = useState<Post>(postsByLanguage.en!);
 
-  // Đánh dấu là client-side
   useEffect(() => {
     setIsClient(true);
   }, []);
 
-  // Chọn bài post và dữ liệu dựa trên i18n.language
   useEffect(() => {
     if (!isClient) return;
     const selectedPost = postsByLanguage[i18n.language] || postsByLanguage.en;
@@ -72,8 +70,7 @@ export default function News({ postsByLanguage, recentPosts, previewPosts, slug 
       toast.error(t("post_not_found"));
     }
   }, [isClient, i18n.language, slug, postsByLanguage]);
-
-  // Chọn recentPosts và previewPosts dựa trên ngôn ngữ
+  
   const selectedRecentPosts = recentPosts[i18n.language] || recentPosts.en;
   const selectedPreviewPosts = previewPosts[i18n.language] || previewPosts.en;
 

@@ -46,22 +46,18 @@ export async function generateStaticParams(): Promise<{ slug: string }[]> {
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
 
-  // Tìm bài post chính cho mỗi ngôn ngữ
-  const enPost = (EnPostData as Post[]).find((p: Post) => p.slug === slug) || null; // Convert undefined to null
-  const viPost = (ViPostData as Post[]).find((p: Post) => p.slug === slug) || null; // Convert undefined to null
+  const enPost = (EnPostData as Post[]).find((p: Post) => p.slug === slug) || null;
+  const viPost = (ViPostData as Post[]).find((p: Post) => p.slug === slug) || null;
 
-  // Nếu không tìm thấy bài post tiếng Anh, trả về 404
   if (!enPost) {
     notFound();
   }
 
-  // Tạo đối tượng chứa bài post chính cho mỗi ngôn ngữ
   const postsByLanguage: { [key: string]: Post | null } = {
     en: enPost,
     vi: viPost,
   };
 
-  // Sắp xếp và chọn 3 bài post mới nhất cho RecentPost
   const sortPosts = (posts: Post[]) =>
     [...posts].sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()).slice(0, 2);
 
@@ -70,10 +66,8 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
     vi: sortPosts(ViPostData as Post[]),
   };
 
-  // Use the related field from the current post for previewPostSlugs
   const previewPostSlugs = enPost.related || [];
 
-  // Get preview posts based on previewPostSlugs
   const getPreviewPosts = (posts: Post[]) =>
     previewPostSlugs
       .map((slug) => posts.find((p) => p.slug === slug))
