@@ -1,21 +1,63 @@
 import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
+
 
 const HomeSection1 = () => {
     return (
-        <div className="flex flex-row items-center justify-center w-full md:w-2/3 pt-28 relative ">
-            <div className="flex  flex-row  items-center relative w-full">
+        <div className="flex flex-row items-center justify-center w-full md:w-[80%] relative ">
+            <div className="flex flex-row  items-center relative w-full max-w-[1300px] mx-auto">
                 <div className="relative w-full h-[700px] flex md:flex-row overflow-visible md:overflow-hidden">
                     <Image src="https://res.cloudinary.com/drkr1i9yz/image/upload/v1752202271/homeS1_q4gakz.webp" alt="Logo" width={700} height={700} className="object-cover " />
-                    <div className="text-left rounded-full bg-[#BF9B30] opacity-60 bg-opacity-50 p-4 w-[45rem] h-[45rem] md:h-[45rem] md:w-[45rem] absolute -left-[50%] md:left-1/3 "></div>
-                    <div
-                        style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', lineHeight: '4rem' }}
-                        className="w-[20rem] md:w-[650px] text-left text-5xl md:text-7xl font-bold z-10 absolute -left-1/12 md:left-1/3 translate-x-20 top-1/5">
-                        Data & Technology at the service of Society, Environment, Education, Research and Finance
-                    </div>
-                </div>
 
+                </div>
+                {/* <div className="absolute rounded-full top-0 w-[700px] h-[700px] right-0 bg-black/70  z-0"></div> */}
+                <div className="absolute rounded-full top-0 w-[700px] h-[700px] md:right-[20px] right-0 bg-[#BF9B30] opacity-[0.4] z-1"></div>
+                <AnimatedText />
             </div>
         </div>
     );
 }
 export default HomeSection1;
+
+const AnimatedText = () => {
+    const [inView, setInView] = useState(false);
+    const ref = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setInView(true);
+                }
+            },
+            { threshold: 0.2 }
+        );
+        if (ref.current) {
+            observer.observe(ref.current);
+        }
+        return () => {
+            if (ref.current) {
+                observer.unobserve(ref.current);
+            }
+        };
+    }, []);
+    return (
+        <div
+            ref={ref}
+            style={{
+                textRendering: 'optimizeLegibility',
+                textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+                lineHeight: '4rem',
+                transition: 'opacity 0.8s, transform 0.8s',
+                opacity: inView ? 1 : 0,
+                transform: inView ? 'translateY(0)' : 'translateY(250px)',
+            }}
+            className="w-[90%] md:w-[675px] md:pl-4 text-left text-5xl lg:text-6xl font-bold z-10 absolute right-0  md:right-[20px] translate-y-[-50%] top-[50%] text-white"
+        >
+            Data & Technology at the service of Society, Environment, Education, Research and Finance
+        </div>
+    );
+};
+
+// Replace $SELECTION_PLACEHOLDER$ with:
+
