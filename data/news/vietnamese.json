@@ -1,0 +1,2870 @@
+[
+{
+"id": "687720cf8fe7f8a1aa978675",
+"title": "Viện Khoa học và Công nghệ Dữ liệu (DTSI)",
+"slug": "data-science-and-technology-institute-dtsi",
+"related": ["learning-to-conduct-and-publish-research-in-international-journals", "dsti-professional-data-scientist-certificate", "dsti-professional-data-analyst-certificate"],
+"category": {
+"id": "6874778f95124bdf3f508e25",
+"title": "Cooperation",
+"createdAt": "2025-07-14T03:20:47.083Z",
+"updatedAt": "2025-07-14T03:20:47.083Z"
+},
+
+"description": {
+
+"root": {
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Viện Công nghệ và Khoa học Dữ liệu (DTSI) Việt Nam luôn nỗ lực đáp ứng nhu cầu ngày càng tăng về lĩnh vực phân tích dữ liệu và khoa học dữ liệu, giải quyết nhu cầu thị trường và đào tạo lực lượng lao động lành nghề trong lĩnh vực này.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Lợi ích",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Chương trình giảng dạy toàn diện và chuyên sâu",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h4"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Chương trình giảng dạy tại Viện bao gồm các khái niệm, công cụ và kỹ thuật cơ bản về phân tích dữ liệu và khoa học dữ liệu. Chương trình giảng dạy kết hợp giữa kiến thức lý thuyết và kỹ năng thực hành, tổng hợp các chủ đề như làm sạch dữ liệu, phân tích dữ liệu khám phá, mô hình thống kê, máy học và trực quan hóa dữ liệu. Bằng cách cung cấp một chương trình giảng dạy toàn diện và chuyên biệt, Viện đào tạo có thể đảm bảo học viên có được nền tảng vững chắc và chuyên môn phù hợp trong lĩnh vực Dữ liệu.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Kinh nghiệm thực tế",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h4"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Viện ưu tiên đào tạo thực hành để cung cấp cho học viên trải nghiệm thực tế khi làm việc với các bộ dữ liệu trong thế giới thực và các công cụ tiêu chuẩn của ngành. Bằng cách thu hút người tham gia vào các dự án thực tế, nghiên cứu trường hợp điển hình và mô phỏng, Viện đào tạo có thể phát triển kỹ năng phân tích, khả năng giải quyết vấn đề và tư duy phản biện cho học viên. Cách tiếp cận này sẽ cho phép học viên áp dụng kiến thức một cách hiệu quả trong các tình huống thực tế, chuẩn bị cho những thách thức học viên sẽ gặp phải trong sự nghiệp chuyên môn của mình.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Giảng viên là các chuyên gia trong ngành",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h4"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Để nâng cao chất lượng đào tạo, Viện đã tuyển dụng những chuyên gia giàu kinh nghiệm trong ngành làm giảng viên. Các giảng viên với kiến thức chuyên môn và kiến thức thực tế sẽ trợ giúp học viên tiếp cận được lĩnh vực một cách sâu sắc hơn, kinh nghiệm của giảng viên sẽ thu hẹp khoảng cách giữa các khái niệm lý thuyết và ứng dụng thực tế trong ngành. Giảng viên có thể chia sẻ kinh nghiệm, phương pháp hay nhất và ví dụ thực tế của họ, giúp học viên hiểu sâu hơn về lĩnh vực công nghệ dữ liệu và ý nghĩa thực tế của nó.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Cơ hội thực tập và làm việc",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h4"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Viện thiết lập hợp tác với các đối tác trong ngành, bao gồm các công ty và tổ chức yêu cầu các nhà phân tích dữ liệu và nhà khoa học dữ liệu. Những sự hợp tác này mang đến cơ hội thực tập, nơi học viên có thể tích lũy kinh nghiệm thực tế, làm việc trong các dự án thực tế và học hỏi trực tiếp từ các chuyên gia trong ngành. Sự hợp tác này cũng cho phép Viện luôn cập nhật các xu hướng mới nhất của ngành, đảm bảo rằng chương trình giảng dạy luôn phù hợp với nhu cầu và đòi hỏi của ngành.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Liên tục cập nhật và phát triển chuyên môn",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h4"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Viện luôn đề cao tầm quan trọng của việc liên tục cập nhật và phát triển chuyên môn bằng cách cung cấp các khóa học, hội thảo và hội thảo nâng cao. Các chương trình này có thể đáp ứng nhu cầu ngày càng tăng và xu hướng mới trong lĩnh vực phân tích dữ liệu và khoa học dữ liệu. Bằng cách cung cấp các cơ hội để học viên nâng cao kỹ năng và cập nhật những tiến bộ mới nhất, Viện có thể đảm bảo rằng học viên tốt nghiệp có khả năng cạnh tranh và thích ứng trong thị trường việc làm.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Dịch vụ giới thiệu việc làm và cơ hội kết nối",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h4"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Viện cung cấp dịch vụ giới thiệu việc làm để hỗ trợ người học tìm kiếm cơ hội việc làm và kết nối với các nhà tuyển dụng tiềm năng, bao gồm: tổ chức các hội chợ nghề nghiệp, tạo điều kiện để học viên kết nối với doanh nghiệp, hướng dẫn về xây dựng sơ yếu lý lịch và chuẩn bị phỏng vấn. Bằng cách xây dựng mối quan hệ bền chặt với các chuyên gia trong ngành và tạo cơ hội kết nối, Viện có thể nâng cao cơ hội việc làm cho học viên và giúp đáp ứng nhu cầu tuyển dụng của doanh nghiệp.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Bằng cách thành lập Viện Công nghệ và Khoa học Dữ liệu Việt Nam, nơi cung cấp chương trình giảng dạy toàn diện, học tập trải nghiệm thực tế, giảng viên giàu kinh nghiệm trong ngành, hợp tác trong ngành, hỗ trợ học tập phát triển và dịch vụ giới thiệu việc làm, trung tâm có thể đáp ứng nhu cầu về phân tích dữ liệu và khoa học dữ liệu trên thị trường. Viện đào tạo được xây dựng với mong muốn góp phần xây dựng lực lượng lao động có năng lực, cung cấp nhân lực cho thị trường, đóng vai trò quan trọng trong việc thúc đẩy quá trình ra quyết định và đổi mới phát triển dựa trên dữ liệu trong nhiều ngành khác nhau.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "root",
+"version": 1
+}
+},
+"cover_image": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752637556/post-image-1_ksygho.jpg",
+"createdAt": "2025-07-16T03:47:27.810Z",
+"updatedAt": "2025-07-16T04:30:54.690Z"
+},
+{
+"id": "687721128fe7f8a1aa9786d8",
+"title": "Chứng chỉ Chuyên gia phân tích dữ liệu DSTI",
+"slug": "dsti-professional-data-analyst-certificate",
+
+"category": {
+"id": "6874778f95124bdf3f508e25",
+"title": "Cooperation",
+"createdAt": "2025-07-14T03:20:47.083Z",
+"updatedAt": "2025-07-14T03:20:47.083Z"
+},
+
+"description": {
+
+"root": {
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Khóa Phân tích Dữ liệu ngắn hạn",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Giáo trình đào tạo ngắn hạn dành cho nhà phân tích dữ liệu thường tập trung vào việc cung cấp nền tảng vững chắc về các kỹ năng và khái niệm thiết yếu.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Giới thiệu về Phân tích Dữ liệu",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Hiểu về vai trò của nhà phân tích dữ liệu và ảnh hưởng của phân tích dữ liệu lên việc đưa ra quyết định.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Giới thiệu về quy trình phân tích dữ liệu và phương pháp thực hiện.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Khám phá các loại dữ liệu và đặc điểm của chúng.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 3
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Làm sạch và chuẩn bị dữ liệu",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Các kỹ thuật làm sạch và tiền xử lý dữ liệu.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Xử lý dữ liệu bị thiếu và các dữ liệu ngoại lệ.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Chuyển đổi và chuẩn hóa dữ liệu.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 3
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Khám phá và trực quan hóa dữ liệu",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Tìm hiểu các kỹ thuật phân tích dữ liệu.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Các thư viện và công cụ hỗ trợ trực quan hóa.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Tạo hình ảnh trực quan có ý nghĩa để truyền đạt thông tin chi tiết.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 3
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Phân tích thống kê",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Thống kê mô tả: đo lường xu hướng trung tâm, tính biến thiên và mối tương quan.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Kiểm định giả thuyết và suy luận thống kê.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Giới thiệu về phân tích hồi quy.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 3
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Giới thiệu về quản lý cơ sở dữ liệu",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Hiểu cơ sở dữ liệu và hệ thống quản lý cơ sở dữ liệu (DBMS).",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Các truy vấn SQL cơ bản để truy xuất và thao tác dữ liệu.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Giới thiệu về Lập trình để Phân tích Dữ liệu",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Khái niệm cơ bản về ngôn ngữ lập trình thường được sử dụng trong phân tích dữ liệu (ví dụ: Python, R).",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Thao tác và phân tích dữ liệu bằng các thư viện lập trình (ví dụ: Pandas, NumPy).",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Báo cáo và Truyền tải thông tin",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Tạo báo cáo dữ liệu và bảng dữ liệu tóm tắt.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Kỹ thuật kể chuyện và trực quan hóa dữ liệu hiệu quả.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Trình bày những phát hiện và hiểu biết sâu sắc từ báo cáo cho các bên liên quan.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 3
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Dự án thực tế và Nghiên cứu điển hình",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Các bài tập và dự án thực hành để áp dụng các khái niệm và kỹ thuật đã học.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Phân tích các tập dữ liệu trong thế giới thực và giải quyết các vấn đề liên quan đến dữ liệu.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Hợp tác và làm việc nhóm trong các dự án phân tích dữ liệu.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 3
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "root",
+"version": 1,
+"textFormat": 1
+}
+},
+"cover_image": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752637556/post-image-1_ksygho.jpg",
+"createdAt": "2025-07-16T03:48:34.191Z",
+"updatedAt": "2025-07-16T06:55:55.990Z"
+},
+{
+"id": "6877213e8fe7f8a1aa97872b",
+"title": "Chứng chỉ Nhà khoa học dữ liệu chuyên nghiệp DSTI",
+"slug": "dsti-professional-data-scientist-certificate",
+
+"category": {
+"id": "6874778f95124bdf3f508e25",
+"title": "Cooperation",
+"createdAt": "2025-07-14T03:20:47.083Z",
+"updatedAt": "2025-07-14T03:20:47.083Z"
+},
+
+"description": {
+
+"root": {
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Chương trình đào tạo trung hạn",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Một chương trình đào tạo trung hạn cho các chuyên gia dữ liệu thường đi sâu hơn vào các khái niệm cơ bản được covered trong chương trình đào tạo ngắn hạn và tập trung vào các kỹ thuật và phương pháp tiên tiến hơn.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Mặc dù chương trình học cụ thể có thể thay đổi dựa trên nguồn cung cấp đào tạo và mục tiêu cụ thể, dưới đây là một bản đề cương tổng quan về các chủ đề có thể được bao gồm trong chương trình đào tạo chuyên gia dữ liệu trung hạn: ",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Tiền Xử Lý Dữ Liệu và Tạo Đặc Trưng",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Các kỹ thuật tiền xử lý và làm sạch dữ liệu nâng cao.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Phương pháp trích xuất và lựa chọn đặc trưng.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Xử lý dữ liệu có chiều cao và dữ liệu không cấu trúc.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 3
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Phân Tích Dữ Liệu Khám Phá và Trực Quan",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Các kỹ thuật phân tích dữ liệu khám phá nâng cao.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Các phương pháp trực quan hóa cho các tập dữ liệu phức tạp.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Các công cụ trực quan hóa tương tác.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 3
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Suy Luận Thống Kê và Kiểm Định Giả Thuyết",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Các khái niệm thống kê nâng cao và các phương pháp suy luận.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Phân tích hồi quy đa biến.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Phân tích phương sai (ANOVA) và thiết kế thí nghiệm.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 3
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Thuật Toán Học Máy",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Các thuật toán học máy giám sát (ví dụ: hồi quy tuyến tính, cây quyết định, rừng ngẫu nhiên, gradient boosting).",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Các thuật toán học máy không giám sát (ví dụ: gom cụm, giảm chiều dữ liệu).",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Các chỉ số đánh giá và phương pháp lựa chọn mô hình.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 3
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Học Sâu và Mạng Nơ-ron nhân tạo",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Giới thiệu các khái niệm về học sâu.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Kiến trúc mạng nơ-ron (ví dụ: feedforward, convolutional, recurrent).",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Học chuyển giao và điều chỉnh mô hình được đào tạo trước.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 3
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Xử Lý Ngôn Ngữ Tự Nhiên (NLP) và Khai Thác Văn Bản",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Các kỹ thuật xử lý và phân tích dữ liệu văn bản.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Phân tích tâm trạng, phân loại văn bản và nhận dạng thực thể được đặt tên.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Mô hình hóa chủ đề và tóm tắt văn bản.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 3
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Công Nghệ Dữ Liệu Lớn",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Giới thiệu về tính toán phân tán và các khung làm việc với dữ liệu lớn.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Xử lý và phân tích các tập dữ liệu quy mô lớn.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Lưu trữ và truy vấn dữ liệu phân tán.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 3
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Triển Khai Mô Hình và Đưa Vào Sản Xuất",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Các chiến lược và kỹ thuật triển khai mô hình.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Tạo API để tích hợp mô hình.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Giám sát mô hình và đánh giá hiệu suất trong môi trường sản xuất.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 3
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Chủ Đề Nâng Cao trong Khoa Học Dữ Liệu",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Phân tích và dự đoán chuỗi thời gian.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Học tăng cường.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Thống kê Bayesian và mô hình xác suất.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 3
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Dự Án Cuối Kỳ và Ứng Dụng Trong Thực Tế",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Thực hiện một dự án khoa học dữ liệu toàn diện từ đầu đến cuối.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 1
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Làm việc với các tập dữ liệu thực tế và các thách thức cụ thể cho từng ngành.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 2
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Trình bày các kết quả dự án và những thông tin cần thiết cho các bên liên quan",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "listitem",
+"version": 1,
+"value": 3
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "list",
+"version": 1,
+"listType": "bullet",
+"start": 1,
+"tag": "ul"
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "root",
+"version": 1,
+"textFormat": 1
+}
+},
+"cover_image": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752637556/post-image-1_ksygho.jpg",
+"createdAt": "2025-07-16T03:49:18.177Z",
+"updatedAt": "2025-07-16T06:57:35.688Z"
+},
+{
+"id": "687721d08fe7f8a1aa9787d7",
+"title": "Học cách tiến hành và công bố nghiên cứu trên các tạp chí quốc tế",
+"slug": "learning-to-conduct-and-publish-research-in-international-journals",
+
+"category": {
+"id": "6874778f95124bdf3f508e25",
+"title": "Cooperation",
+"createdAt": "2025-07-14T03:20:47.083Z",
+"updatedAt": "2025-07-14T03:20:47.083Z"
+},
+
+"description": {
+
+"root": {
+
+"children": [
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 2,
+"mode": "normal",
+"style": "",
+"text": "Học cách thực hiện và công bố nghiên cứu trên các tạp chí quốc tế là một quá trình toàn diện đòi hỏi một cách tiếp cận có hệ thống và nỗ lực tận tâm.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 2,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Phát triển kỹ năng nghiên cứu ",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"textFormat": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Bắt đầu bằng cách xây dựng nền tảng vững chắc về phương pháp nghiên cứu, bao gồm đánh giá tài liệu, thiết kế nghiên cứu, thu thập và phân tích dữ liệu. Làm quen với các nguyên tắc viết học thuật và phong cách trích dẫn thường được sử dụng trong lĩnh vực đang nghiên cứu. Nâng cao tư duy phản biện và kỹ năng phân tích để đánh giá và giải thích hiệu quả các kết quả nghiên cứu.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Chọn lĩnh vực nghiên cứu ",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"textFormat": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Xác định lĩnh vực nghiên cứu mà bản thân quan tâm phù hợp với chuyên môn và niềm đam mê của cá nhân. Luôn cập nhật các xu hướng, tiến bộ và tranh luận mới nhất trong lĩnh vực này để xác định những khoảng trống nghiên cứu và các câu hỏi nghiên cứu tiềm năng. Tham gia thảo luận với người cố vấn, đồng nghiệp và chuyên gia để tinh chỉnh và định hình ý tưởng nghiên cứu.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Tổng quan lý thuyết ",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"textFormat": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Tiến hành đánh giá toàn diện các nghiên cứu hiện có trong lĩnh vực đã chọn. Xác định hiện trạng kiến thức, lỗ hổng và các lĩnh vực cần nghiên cứu thêm. Phân tích và tổng hợp các tài liệu liên quan để thiết lập bối cảnh và khung lý thuyết cho bài nghiên cứu.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Xây dựng kế hoạch nghiên cứu",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"textFormat": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": " Xây dựng một kế hoạch nghiên cứu rõ ràng nêu rõ mục tiêu nghiên cứu, câu hỏi nghiên cứu, giả thuyết (nếu có), phương pháp, phương pháp thu thập dữ liệu và kỹ thuật phân tích. Tìm kiếm sự hướng dẫn từ các nhà nghiên cứu hoặc cố vấn có kinh nghiệm để đảm bảo tính khả thi và chặt chẽ cho kế hoạch nghiên cứu.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Thu thập và phân tích dữ liệu ",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"textFormat": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Thực hiện kế hoạch nghiên cứu  bằng cách thu thập dữ liệu bằng các phương pháp và công cụ thích hợp. Đảm bảo chất lượng và độ tin cậy của dữ liệu  thông qua các quy trình lấy mẫu, xác thực dữ liệu và làm sạch dữ liệu thích hợp. Sử dụng các kỹ thuật phân tích thống kê hoặc định tính tùy thuộc vào bản chất nghiên cứu . Rút ra những hiểu biết sâu sắc có ý nghĩa từ dữ liệu phù hợp với mục tiêu nghiên cứu .",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Viết bài nghiên cứu ",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"textFormat": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Viết một bài nghiên cứu có cấu trúc tốt, tuân thủ các hướng dẫn và yêu cầu của tạp chí mục tiêu. Hãy chú ý đến phạm vi, định dạng và phong cách trích dẫn của tạp chí. Trình bày rõ ràng mục tiêu, phương pháp, phát hiện và kết luận nghiên cứu . Tìm kiếm phản hồi từ người cố vấn hoặc đồng nghiệp để tinh chỉnh bài viết  và đảm bảo sự rõ ràng và mạch lạc.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Chọn đúng tạp chí ",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"textFormat": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Xác định các tạp chí quốc tế phù hợp phù hợp với phạm vi và trọng tâm nghiên cứu . Xem xét các yếu tố như danh tiếng, yếu tố tác động, đối tượng mục tiêu và mức độ liên quan đến lĩnh vực nghiên cứu . Làm quen với các nguyên tắc gửi bài, chính sách biên tập và quy trình đánh giá của từng tạp chí.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Gửi và phản hồi đánh giá ",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"textFormat": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Chuẩn bị bản thảo  theo hướng dẫn của tạp chí và gửi nó để xem xét. Hãy chuẩn bị cho nhiều vòng đánh giá và giải quyết các nhận xét cũng như đề xuất của người đánh giá một cách chuyên nghiệp và kỹ lưỡng. Sửa đổi bản thảo  dựa trên phản hồi nhận được và gửi lại trong thời gian quy định.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Xuất bản và phổ biến",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"textFormat": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Sau khi được chấp nhận, bài nghiên cứu  sẽ được công bố trên tạp chí quốc tế, hãy chia sẻ thành tựu  và những phát hiện  với cộng đồng khoa học. Hãy cân nhắc việc trình bày nghiên cứu  tại các hội nghị, hội thảo hoặc chuyên đề để phổ biến công việc  tới nhiều đối tượng hơn và tham gia vào các cuộc thảo luận học thuật.",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 1,
+"mode": "normal",
+"style": "",
+"text": "Học hỏi và cập nhật liên tục ",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "start",
+"indent": 0,
+"type": "heading",
+"version": 1,
+"textFormat": 1,
+"tag": "h3"
+},
+
+{
+
+"children": [
+
+{
+"detail": 0,
+"format": 0,
+"mode": "normal",
+"style": "",
+"text": "Tham gia vào quá trình phát triển chuyên môn liên tục để nâng cao kỹ năng nghiên cứu  và theo kịp những tiến bộ mới nhất trong lĩnh vực . Luôn kết nối với cộng đồng học thuật, tham gia mạng lưới nghiên cứu và tham gia vào các dự án hợp tác để mở rộng tầm nhìn nghiên cứu . Học cách tiến hành và công bố nghiên cứu trên các tạp chí quốc tế đòi hỏi sự kiên trì, kiên cường và học hỏi không ngừng. Thông qua thực hành siêng năng, tuân thủ các tiêu chuẩn nghiêm ngặt và tìm kiếm sự hướng dẫn từ các nhà nghiên cứu giàu kinh nghiệm, cá nhân có thể trau dồi kỹ năng của bản thân và đóng góp cho diễn đàn học thuật toàn cầu.  ",
+"type": "text",
+"version": 1
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "paragraph",
+"version": 1,
+"textFormat": 0,
+"textStyle": ""
+},
+
+{
+"type": "upload",
+"version": 3,
+"format": "",
+"id": "68774df1dba137283f9b5619",
+"fields": null,
+"relationTo": "media",
+
+"value": {
+"id": "6874792795124bdf3f50900f",
+"filename": "example.jpg",
+"mimeType": "image/jpeg",
+"filesize": 124125,
+"width": 500,
+"height": 400,
+"focalX": 50,
+"focalY": 50,
+"createdAt": "2025-07-14T03:27:35.617Z",
+"updatedAt": "2025-07-14T03:27:35.617Z",
+"url": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752637865/post-img-2_sq2rkm.webp",
+"thumbnailURL": null
+}
+}
+],
+"direction": "ltr",
+"format": "",
+"indent": 0,
+"type": "root",
+"version": 1
+}
+},
+"createdAt": "2025-07-16T03:51:44.580Z",
+"updatedAt": "2025-07-16T07:00:08.741Z",
+"cover_image": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752637556/post-image-1_ksygho.jpg"
+}
+]
