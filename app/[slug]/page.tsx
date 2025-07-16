@@ -1,6 +1,7 @@
-import newsData from '@/data/news.json';
 import News from '@/components/news';
 import { notFound } from 'next/navigation';
+import EnPostData from '@/data/news/english.json';
+import ViPostData from '@/data/news/vietnamese.json'
 
 // Define the type for the news data
 interface Post {
@@ -14,7 +15,8 @@ interface Post {
     updatedAt: string;
   };
   description: any;
-  image: {
+  cover_image: string;
+  image?: {
     id: string;
     filename: string;
     mimeType: string;
@@ -30,12 +32,13 @@ interface Post {
   };
   createdAt: string;
   updatedAt: string;
+  related?: string[];
 }
 
 // Export generateStaticParams for static site generation
 export async function generateStaticParams(): Promise<{ slug: string }[]> {
   // Ensure newsData is treated as an array
-  return (newsData as Post[]).map((post: Post) => ({
+  return (EnPostData as Post[]).map((post: Post) => ({
     slug: post.slug,
   }));
 }
@@ -43,13 +46,43 @@ export async function generateStaticParams(): Promise<{ slug: string }[]> {
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
 
-  // Find the post with the matching slug
-  const post = (newsData as Post[]).find((p: Post) => p.slug === slug);
+  // Tìm bài post chính cho mỗi ngôn ngữ
+  const enPost = (EnPostData as Post[]).find((p: Post) => p.slug === slug) || null; // Convert undefined to null
+  const viPost = (ViPostData as Post[]).find((p: Post) => p.slug === slug) || null; // Convert undefined to null
 
-  // If no post is found, return 404
-  if (!post) {
+  // Nếu không tìm thấy bài post tiếng Anh, trả về 404
+  if (!enPost) {
     notFound();
   }
 
-  return <News post={post} />;
+  // Tạo đối tượng chứa bài post chính cho mỗi ngôn ngữ
+  const postsByLanguage: { [key: string]: Post | null } = {
+    en: enPost,
+    vi: viPost,
+  };
+
+  // Sắp xếp và chọn 3 bài post mới nhất cho RecentPost
+  const sortPosts = (posts: Post[]) =>
+    [...posts].sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()).slice(0, 2);
+
+  const recentPosts = {
+    en: sortPosts(EnPostData as Post[]),
+    vi: sortPosts(ViPostData as Post[]),
+  };
+
+  // Use the related field from the current post for previewPostSlugs
+  const previewPostSlugs = enPost.related || [];
+
+  // Get preview posts based on previewPostSlugs
+  const getPreviewPosts = (posts: Post[]) =>
+    previewPostSlugs
+      .map((slug) => posts.find((p) => p.slug === slug))
+      .filter((post): post is Post => !!post);
+
+  const previewPosts = {
+    en: getPreviewPosts(EnPostData as Post[]),
+    vi: getPreviewPosts(ViPostData as Post[]),
+  };
+
+  return <News postsByLanguage={postsByLanguage} recentPosts={recentPosts} previewPosts={previewPosts} slug={slug} />;
 }
