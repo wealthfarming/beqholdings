@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { RichText } from "@payloadcms/richtext-lexical/react";
 import { getCustomRichTextConverters } from "@/components/rich-text/custom-rich-text-converters";
-import RecentPost from "./recent-post";
+import PostCard from "./post-card";
 import PreviewPost from "./preview-post";
 import Footer from "./footer";
 import { format, parseISO } from "date-fns";
@@ -123,7 +123,7 @@ export default function News({ postsByLanguage, recentPosts, previewPosts, slug 
             <h4 className="text-[25px] font-bold pb-6 pt-25 lg:pt-32">{t("recent_posts")}</h4>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 items-stretch">
               {selectedRecentPosts.map((recentPost, index) => (
-                <RecentPost key={index} post={recentPost} />
+                <PostCard key={index} post={recentPost} />
               ))}
             </div>
           </div>

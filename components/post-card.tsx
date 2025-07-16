@@ -41,7 +41,7 @@ interface Props {
   post: Post;
 }
 
-export default function RecentPost({ post }: Props) {
+export default function PostCard({ post }: Props) {
   const { t } = useTranslation();
   const [isClient, setIsClient] = useState(false);
 
