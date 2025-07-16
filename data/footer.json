@@ -1,0 +1,23 @@
+{
+    "logo": "",
+    "companyName": "BeQ Holdings",
+    "address": [
+        {
+            "region": "USA",
+            "details": "BeQ Holdings INC (US), 200 Continental Drive, Newark, DE 19713, USA"
+        },
+        {
+            "region": "Singapore",
+            "details": "14 Robinson Road #08-01A, Far East Finance Building, Singapore (048545)"
+        },
+        {
+            "region": "Vietnam",
+            "details": "67 Dinh Thi Thi Street, Van Phuc City, Thu Duc District, Ho Chi Minh City"
+        },
+        {
+            "region": "UK",
+            "details": "128 City Road, London, United Kingdom, EC1V 2NX"
+        }
+    ],
+    "email": "contact@beqholdings.com"
+}

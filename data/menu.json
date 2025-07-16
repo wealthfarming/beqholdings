@@ -167,21 +167,25 @@
       "children": [
         {
           "title": { "en": "Data Science and Technology Institute (DTSI)" },
+          "url": "/data-science-and-technology-institute-dtsi",
           "open_in_new_tab": false,
           "children": []
         },
         {
           "title": { "en": "DSTI Professional Data Analyst Certificate" },
+          "url": "/dsti-professional-data-analyst-certificate",
           "open_in_new_tab": false,
           "children": []
         },
         {
           "title": { "en": "DSTI Professional Data Scientist Certificate" },
+          "url": "/dsti-professional-data-scientist-certificate",
           "open_in_new_tab": false,
           "children": []
         },
         {
           "title": { "en": "Learning to conduct and publish research in international journals" },
+          "url": "/learning-to-conduct-and-publish-research-in-international-journals",
           "open_in_new_tab": false,
           "children": []
         }
