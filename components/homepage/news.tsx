@@ -1,10 +1,49 @@
 import React from "react";
 import PostCard from "../newsItems";
-import data from "../../data/home_recentNew.json";
 const Url = "https://dev.be.landing.wealthfarming.org/"
+interface PostData {
+  idPost: string;
+  title: string;
+  category: string;
+  time: string;
+  timeRead: string;
+  image: string;
+}
+
 const NewsSections = () => {
-  const [Postdata, setPostData] = React.useState(data);
-  
+  const [Postdata, setPostData] = React.useState<PostData[]>([]);
+  async function fetchData() {
+    try {
+      // Fetching data from the API
+      const response = await fetch('https://dev.be.landing.wealthfarming.org/api/posts?limit=8',
+        {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+          },
+        }
+      );
+      
+      const result = await response.json();
+      // Mapping the fetched data to the PostData structure
+      const mapData = result.docs.map((item: any) => ({
+        idPost: item.id,
+        title: item.title,
+        category: item.category.title,
+        time: item.createdAt,
+        timeRead: '5 min read', // Assuming a static read time for simplicity
+        image: (item.cover_image),
+      }));
+      setPostData(mapData);
+    }
+    catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  }
+  React.useEffect(() => {
+    fetchData();
+  }, []);
   return (
     <section className="w-full px-8 md:px-16 py-8 ">
       <div className="max-w-[1400px] mx-auto">
