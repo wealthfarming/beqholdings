@@ -17,7 +17,7 @@ import {
 
 import * as SheetPrimitive from "@radix-ui/react-dialog"
 import menuData from '@/data/menu.json';
-import { ListIcon, PlusIcon } from '@phosphor-icons/react';
+import { ListIcon, PlusIcon, XIcon } from '@phosphor-icons/react';
 import Image from 'next/image';
 import React, { useState } from "react";
 
@@ -30,7 +30,7 @@ const PageHeader = () => {
                 <SheetTrigger>
                     <div className="md:hidden flex items-center justify-center ">
                         <p className="text-gray-600 dark:text-gray-300 flex items-center w-16 h-16 p-4 rounded-full bg-gray-200 dark:bg-[#9690a214]">
-                            <ListIcon size={32} />
+                            <ListIcon size={28} />
                         </p>
                     </div>
                 </SheetTrigger>
@@ -41,17 +41,17 @@ const PageHeader = () => {
                                 <SheetPrimitive.Close className="ring-offset-background focus:ring-ring  data-[state=open]:bg-secondary  rounded-xs opacity-70 transition-opacity hover:opacity-100 focus:ring-2 focus:ring-offset-2 focus:outline-hidden disabled:pointer-events-none">
                                     <div className="flex items-center justify-center ">
                                         <p className="text-gray-600 dark:text-gray-300 flex items-center w-16 h-16 p-4 rounded-full bg-gray-200 dark:bg-[#9690a214]">
-                                            <ListIcon size={32} />
+                                            <XIcon size={28} />
                                         </p>
                                     </div>
                                 </SheetPrimitive.Close>
                             </div>
                         </SheetTitle>
 
-                        <div>
+                        <div className="flex flex-col gap-5 pt-4">
                             {
                                 menuItems.map((item, index) => (
-                                    <div key={`${item.title.en}-${index}`} className="mb-4">
+                                    <div key={`${item.title.en}-${index}`}>
                                         {item.children.length > 0 ? (
                                             <ExpandableMenuItem item={
                                                 {
@@ -82,7 +82,7 @@ const PageHeader = () => {
                         <p className="text-gray-500 dark:text-gray-400 text-[0.95rem] text-start mt-4">
                             © 2016-2023
                             <a href="https://beqholdings.com/" target="_blank" rel="noopener" className="text-[#bf9b30] px-2">BeQ Holdings.</a>
-                             All rights reserved
+                            All rights reserved
                         </p>
                     </SheetHeader>
                 </SheetContent>
@@ -172,11 +172,9 @@ type ExpandableMenuProps = {
 
 const ExpandableMenu: React.FC<ExpandableMenuProps> = ({ items }) => {
     return (
-        <div>
-            {items.map((item, idx) => (
-                <ExpandableMenuItem key={item.title + idx} item={item} />
-            ))}
-        </div>
+        items.map((item, idx) => (
+            <ExpandableMenuItem key={item.title + idx} item={item} />
+        ))
     );
 };
 
@@ -186,9 +184,9 @@ const ExpandableMenuItem: React.FC<{ item: ExpandableMenuItemType }> = ({ item }
     const hasChild = item.child && item.child.length > 0;
 
     return (
-        <div className="mb-2 w-full">
+        <div className="w-full ">
             <div
-                className="flex items-center cursor-pointer justify-between select-none w-full py-2"
+                className="flex items-center cursor-pointer justify-between select-none w-full "
                 onClick={() => hasChild && setExpanded((prev) => !prev)}
             >
                 <a
@@ -215,7 +213,7 @@ const ExpandableMenuItem: React.FC<{ item: ExpandableMenuItemType }> = ({ item }
                 }}
             >
                 {hasChild && (
-                    <div className="ml-4 pl-2 ">
+                    <div className="ml-4 pl-2 flex flex-col gap-5 py-2">
                         <ExpandableMenu items={item.child!} />
                     </div>
                 )}
