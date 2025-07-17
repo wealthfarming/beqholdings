@@ -1,5 +1,6 @@
 import React from "react";
 import PostCard from "../newsItems";
+import data from "@/data/news.json";
 const Url = "https://dev.be.landing.wealthfarming.org/"
 interface PostData {
   idPost: string;
@@ -14,20 +15,10 @@ const NewsSections = () => {
   const [Postdata, setPostData] = React.useState<PostData[]>([]);
   async function fetchData() {
     try {
-      // Fetching data from the API
-      const response = await fetch('https://dev.be.landing.wealthfarming.org/api/posts?limit=8',
-        {
-          method: 'GET',
-          headers: {
-            'Content-Type': 'application/json',
-            'Accept': 'application/json',
-          },
-        }
-      );
-      
-      const result = await response.json();
+      // Using local data from news.json
+      const result = data;
       // Mapping the fetched data to the PostData structure
-      const mapData = result.docs.map((item: any) => ({
+      const mapData = result.map((item: any) => ({
         idPost: item.id,
         title: item.title,
         category: item.category.title,
