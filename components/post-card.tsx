@@ -31,7 +31,7 @@ interface Post {
     updatedAt: string;
     url: string;
     thumbnailURL: string | null;
-  };
+  } | string ;
   createdAt: string;
   updatedAt: string;
   related?: string[];
@@ -54,8 +54,10 @@ export default function PostCard({ post }: Props) {
   // Extract short description from post.description (first 100 characters)
   const shortDescription =
     (
-      post.description?.root?.children[0]?.children[0]?.text?.slice(0, 100) 
-      || "No description available") + "...";
+      typeof post.description?.root?.children[0]?.children[0]?.text === "string"
+        ? post.description.root.children[0].children[0].text.slice(0, 100)
+        : "No description available"
+    ) + "...";
 
   return (
     <div className="flex flex-col w-full h-full">

@@ -1,3 +1,4 @@
+'use client';
 import {
     NavigationMenu,
     NavigationMenuList,
@@ -25,7 +26,7 @@ const PageHeader = () => {
     const menuItems = menuData.menu_items;
 
     return (
-        <div className="w-full flex flex-row md:px-16 px-4 py-4">
+        <div className="w-full flex flex-row md:px-16 px-4 py-4 z-[2000]">
             <Sheet>
                 <SheetTrigger>
                     <div className="md:hidden flex items-center justify-center ">
@@ -105,7 +106,7 @@ const PageHeader = () => {
 
                 <NavigationMenuList className="flex items-center justify-between w-full max-w-none">
 
-                    <div className="flex w-full items-center justify-center">
+                    <div className="flex w-full items-center justify-center gap-4">
                         {menuItems.map((item, index) => (
                             <NavigationMenuItem key={`${item.title.en}-${index}`}>
                                 {item.children.length > 0 ? (

@@ -1,40 +1,68 @@
 import React from "react";
-import PostCard from "../newsItems";
-import data from "@/data/news.json";
+import PostCard, { PostCardProps } from "../newsItems";
+import postVN from "@/data/news/vietnamese.json";
+import postEN from "@/data/news/english.json";
+
+
 const Url = "https://dev.be.landing.wealthfarming.org/"
-interface PostData {
-  idPost: string;
-  title: string;
-  category: string;
-  time: string;
-  timeRead: string;
-  image: string;
-}
 
 const NewsSections = () => {
-  const [Postdata, setPostData] = React.useState<PostData[]>([]);
-  async function fetchData() {
-    try {
-      // Using local data from news.json
-      const result = data;
-      // Mapping the fetched data to the PostData structure
-      const mapData = result.map((item: any) => ({
-        idPost: item.id,
-        title: item.title,
-        category: item.category.title,
-        time: item.createdAt,
-        timeRead: '5 min read', // Assuming a static read time for simplicity
-        image: (item.cover_image),
-      }));
-      setPostData(mapData);
-    }
-    catch (error) {
-      console.error('Error fetching data:', error);
-    }
-  }
+  const savedLanguage = typeof window !== "undefined" && localStorage.getItem("language")
+    ? localStorage.getItem("language")
+    : "en";
+
+  const [Postdata, setPostData] = React.useState<PostCardProps[]>([]);
   React.useEffect(() => {
-    fetchData();
-  }, []);
+    const updateData = async () => {
+      try {
+        if (savedLanguage === "vi") {
+          const data: PostCardProps[] = postVN.map((item) => ({
+            id: item.id,
+            title: item.title,
+            category: Array.isArray(item.category)
+              ? item.category.map(cat => ({
+                id: cat.id,
+                title: cat.title,
+              }))
+              : [{
+                id: item.category.id,
+                title: item.category.title,
+              }],
+            publicDate: new Date(item.createdAt).toLocaleDateString(),
+            timeRead: (item.description.root.children.length) + " min read",
+            image: item.cover_image,
+          }));
+
+          console.log(data);
+          setPostData(data);
+        }
+        else {
+          const data: PostCardProps[] = postEN.map((item) => ({
+            id: item.id,
+            title: item.title,
+            category: Array.isArray(item.category)
+              ? item.category.map(cat => ({
+                id: cat.id,
+                title: cat.title,
+              }))
+              : [{
+                id: item.category.id,
+                title: item.category.title,
+              }],
+            publicDate: new Date(item.createdAt).toLocaleDateString(),
+            timeRead: (item.description.root.children.length) + " min read",
+            image: item.cover_image,
+          }));
+          console.log(data);
+          setPostData(data);
+        }
+      }
+      catch (error) {
+        console.error("Error fetching news data:", error);
+      }
+    };
+    updateData();
+  }, [savedLanguage]);
   return (
     <section className="w-full px-8 md:px-16 py-8 ">
       <div className="max-w-[1400px] mx-auto">
@@ -44,13 +72,13 @@ const NewsSections = () => {
             {(typeof window !== "undefined" && window.innerWidth < 768
               ? Postdata.slice(0, 5)
               : Postdata
-            ).map((item) => (
+            ).map((item, index) => (
               <PostCard
-                key={item.idPost}
-                id={item.idPost}
+                key={index}
+                id={item.id}
                 title={item.title}
                 category={item.category}
-                publicDate={new Date(item.time).toLocaleDateString()}
+                publicDate={item.publicDate}
                 timeRead={item.timeRead}
                 image={item.image}
               />

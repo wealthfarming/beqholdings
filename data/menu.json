@@ -190,6 +190,11 @@
           "children": []
         }
       ]
+    },
+    {
+      "title": { "en": "News" },
+      "url": "/news",
+      "children": []
     }
   ]
 }
