@@ -13,7 +13,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ChevronLeft, Star } from "lucide-react";
 
 export default function Project() {
-
     return (
         <div className="flex flex-col w-full items-center">
             <div
