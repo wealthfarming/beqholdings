@@ -43,41 +43,41 @@
     },
     {
       "title": { "en": "Indexes Family" },
-      "url": "/",
+      "url": "/indexes",
       "children": [
         {
           "title": { "en": "Vietnam VNX Indexes Family" },
-          "url": "/",
+          "url": "/beqifrc-vietnam-vnx-indexes-family",
           "open_in_new_tab": false,
           "children": []
         },
         {
           "title": { "en": "Indexes and Portfolios Free And Ready For Research" },
-          "url": "/",
+          "url": "/beqifrc-indexes-and-portfolios-free-and-ready-for-research",
           "open_in_new_tab": false,
           "children": []
         },
         {
           "title": { "en": "Vietnam Smart Beta indexes Series" },
-          "url": "/",
+          "url": "/beqifrc-vietnam-smart-beta-indexes",
           "open_in_new_tab": false,
           "children": []
         },
         {
           "title": { "en": "Vietnam Provincial indexes Series" },
-          "url": "/",
+          "url": "/beqifrc-vietnam-provincial-indexes",
           "open_in_new_tab": false,
           "children": []
         },
         {
           "title": { "en": "Vietnam and International Women CEO Indexes" },
-          "url": "/",
+          "url": "/#",
           "open_in_new_tab": false,
           "children": []
         },
         {
           "title": { "en": "Artificial Indexes indexes" },
-          "url": "/",
+          "url": "/beqifrc-artificial-indexes-indexes",
           "open_in_new_tab": false,
           "children": []
         },
@@ -89,25 +89,25 @@
         },
         {
           "title": { "en": "BeQ/IFRC Volatility indexes" },
-          "url": "/",
+          "url": "/beqifrc-volatility-indexes",
           "open_in_new_tab": false,
           "children": []
         },
         {
           "title": { "en": "Crypto Currency Indexes" },
-          "url": "/",
+          "url": "/beqifrc-crypto-currency-indexes",
           "open_in_new_tab": false,
           "children": []
         },
         {
           "title": { "en": "Currency indexes" },
-          "url": "/",
+          "url": "/beqifrc-currency-indexes",
           "open_in_new_tab": false,
           "children": []
         },
         {
           "title": { "en": "Customised indexes" },
-          "url": "/",
+          "url": "/beqifrc-customised-indexes",
           "open_in_new_tab": false,
           "children": []
         }
