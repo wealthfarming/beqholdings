@@ -1,0 +1,1332 @@
+{
+    "en": {
+        "title": "BeQ/IFRC Indexes Family",
+        "cover_image": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752724880/indexes-landscape_q2o1xk.webp",
+        "description": {
+            "root": {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 0,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "BeQ Holdings / Intelligent Financial Research & Consulting (IFRC) holds the prestigious position of being Vietnam’s pioneering index provider. Our expertise lies in effectively managing, maintaining, calculating, and disseminating a comprehensive range of approximately 20,000 Vietnamese and International Indexes.",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "left",
+                        "indent": 0,
+                        "type": "paragraph",
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": ""
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 0,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "For each primary equity index, we calculate:",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "left",
+                        "indent": 0,
+                        "type": "paragraph",
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": ""
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "detail": 0,
+                                        "format": 1,
+                                        "mode": "normal",
+                                        "style": "",
+                                        "text": "2 versions of Price",
+                                        "type": "text",
+                                        "version": 1
+                                    },
+                                    {
+                                        "detail": 0,
+                                        "format": 0,
+                                        "mode": "normal",
+                                        "style": "",
+                                        "text": ": Price and Total Return (including reinvestment of dividend). The Total Return index more accurately reflects the gain for investors,",
+                                        "type": "text",
+                                        "version": 1
+                                    }
+                                ],
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "type": "listitem",
+                                "version": 1,
+                                "textFormat": 1,
+                                "value": 1
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "detail": 0,
+                                        "format": 1,
+                                        "mode": "normal",
+                                        "style": "",
+                                        "text": "Different adapted versions of Weighting",
+                                        "type": "text",
+                                        "version": 1
+                                    },
+                                    {
+                                        "detail": 0,
+                                        "format": 0,
+                                        "mode": "normal",
+                                        "style": "",
+                                        "text": ": Capitalisation Weighted, Capitalisation Adjusted by Free Float and Capping, Equal Weighted, or Factor Weighted,",
+                                        "type": "text",
+                                        "version": 1
+                                    }
+                                ],
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "type": "listitem",
+                                "version": 1,
+                                "textFormat": 1,
+                                "value": 2
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "left",
+                        "indent": 0,
+                        "type": "list",
+                        "version": 1,
+                        "listType": "bullet",
+                        "start": 1,
+                        "tag": "ul"
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 0,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "As the leading index provider in Vietnam, we are committed to delivering accurate and reliable financial research and consulting services. Our dedicated team of experts utilizes cutting-edge technology and analytical tools to ensure the utmost precision in all our index-related operations.",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "left",
+                        "indent": 0,
+                        "type": "paragraph",
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": ""
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 0,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "By meticulously curating and updating a diverse portfolio of Vietnamese and International Indexes, we empower investors, financial institutions, and market participants with invaluable insights into the dynamic landscape of global and domestic markets. Our comprehensive coverage allows for informed decision-making, strategic portfolio management, and the identification of lucrative investment opportunities.",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "left",
+                        "indent": 0,
+                        "type": "paragraph",
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": ""
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 0,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "With our commitment to excellence and unwavering dedication to serving our clients, BeQ Holdings / IFRC is at the forefront of advancing the financial industry in Vietnam. We continually strive to expand our offerings, enhance our methodologies, and adapt to the ever-evolving needs of the market to maintain our position as the premier index provider in the country.",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "left",
+                        "indent": 0,
+                        "type": "paragraph",
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": ""
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 0,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "Partner with us to unlock the full potential of your investment strategies and harness the power of data-driven decision-making in today’s complex financial ecosystem.",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "left",
+                        "indent": 0,
+                        "type": "paragraph",
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": ""
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 1,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "The BeQ/IFRC Indexes Family brings to investors and researchers",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "start",
+                        "indent": 0,
+                        "type": "heading",
+                        "version": 1,
+                        "tag": "h3"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "detail": 0,
+                                        "format": 0,
+                                        "mode": "normal",
+                                        "style": "",
+                                        "text": "A measure coherent with international standards that reflects Vietnam index performance",
+                                        "type": "text",
+                                        "version": 1
+                                    }
+                                ],
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "type": "listitem",
+                                "version": 1,
+                                "value": 1
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "detail": 0,
+                                        "format": 0,
+                                        "mode": "normal",
+                                        "style": "",
+                                        "text": "Information with high transparence about how the index family is designed, selected and managed day to day",
+                                        "type": "text",
+                                        "version": 1
+                                    }
+                                ],
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "type": "listitem",
+                                "version": 1,
+                                "value": 2
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "detail": 0,
+                                        "format": 0,
+                                        "mode": "normal",
+                                        "style": "",
+                                        "text": "Complete index data available for the investors research",
+                                        "type": "text",
+                                        "version": 1
+                                    }
+                                ],
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "type": "listitem",
+                                "version": 1,
+                                "value": 3
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "start",
+                        "indent": 0,
+                        "type": "list",
+                        "version": 1,
+                        "listType": "bullet",
+                        "start": 1,
+                        "tag": "ul"
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 0,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "Tradable indexes that can serve as basis for structured products and other index-linked investment vehicles as response to the development of the Vietnam market",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "start",
+                        "indent": 0,
+                        "type": "paragraph",
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": ""
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 1,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "IFRC Indexes are designed for different uses and purposes",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "start",
+                        "indent": 0,
+                        "type": "heading",
+                        "version": 1,
+                        "tag": "h3"
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 1,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "Research / Analysis ",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "start",
+                        "indent": 0,
+                        "type": "heading",
+                        "version": 1,
+                        "tag": "h4"
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 3,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "All-Share Methodology is adopted. ",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "start",
+                        "indent": 0,
+                        "type": "heading",
+                        "version": 1,
+                        "tag": "h5"
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 0,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "An AllShare index is an index comprising all listed companies of a market segment (Ho Chi Minh Stock Exchange, HaNoi Stock Exchange), or industry (Finance, Bank, Technology, …), or Size (Large Caps, Mid Caps, Small Caps) or other classification. All Shares indexes are weighted by the full market capitalisation, or Equally, and the number is variable depending on the market conditions.",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "start",
+                        "indent": 0,
+                        "type": "paragraph",
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": ""
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 1,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "Tradable/investable ",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "start",
+                        "indent": 0,
+                        "type": "heading",
+                        "version": 1,
+                        "tag": "h4"
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 3,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "Liquid Stock or Blue Chips Methodology is adopted. ",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "start",
+                        "indent": 0,
+                        "type": "heading",
+                        "version": 1,
+                        "tag": "h5"
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 0,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "These indexes are UCITS III compliant and designed following international standards and to be potential underlying of funds and structured products. Constituents are in the liquidity criteria to make the trading basket easier and cheaper.",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "start",
+                        "indent": 0,
+                        "type": "paragraph",
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": ""
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 0,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "A tradable index comprises a limited and fixed number of constituents (to limit liquidity cost for the product issuers) and excludes illiquid stocks with a rounded number of constituents. For example IFRC VNX 25 index, or IFRC WOMEN CEO Top 10 index.",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "start",
+                        "indent": 0,
+                        "type": "paragraph",
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": ""
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 0,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "BeQ/IFRC Vietnam launched different Vietnam indexes Series.",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "start",
+                        "indent": 0,
+                        "type": "paragraph",
+                        "version": 1,
+                        "textFormat": 0,
+                        "textStyle": ""
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 1,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "Volatility / Sentiment",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "start",
+                        "indent": 0,
+                        "type": "heading",
+                        "version": 1,
+                        "tag": "h4"
+                    },
+                    {
+                        "children": [
+                            {
+                                "detail": 0,
+                                "format": 3,
+                                "mode": "normal",
+                                "style": "",
+                                "text": "Risk Management, Hedging, Speculation, Trading Signals",
+                                "type": "text",
+                                "version": 1
+                            }
+                        ],
+                        "direction": "ltr",
+                        "format": "start",
+                        "indent": 0,
+                        "type": "heading",
+                        "version": 1,
+                        "tag": "h5"
+                    }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "root",
+                "version": 1
+            }
+        },
+        "posts": [
+            {
+                "title": "BeQ/IFRC Vietnam VNX indexes Family",
+                "cover_image": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752720249/post-img-4_mxepuf.webp",
+                "intro_title": "Introduction",
+                "introduction": {
+                    "root": {
+
+                    "children": [
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "This family proposes Benchmark indexes for giving a good measure of the total market evolution, Blue Chips indexes for building products and trading the basket easily, Sectors indexes for specialized sectors.",
+                    "type": "text",
+                    "version": 1
+                    },
+
+                    {
+                    "type": "linebreak",
+                    "version": 1
+                    },
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "The primary indexes are calculated in the Prices and Total Return versions. Each index is available in four currencies: EUR, JPY, USD and VND.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "root",
+                    "version": 1
+                    }
+                    },
+                "url": "/beqifrc-vietnam-vnx-indexes-family"
+            },
+            {
+                "title": "BeQ/IFRC Vietnam Smart Beta indexes",
+                "cover_image": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752720249/post-img-4_mxepuf.webp",
+                "intro_title": "Introduction",
+                "introduction": {
+                    "root": {
+
+                    "children": [
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "For the past 35 years, investors have had two choices: passive or active portfolio investment. If they believed markets were largely efficient, they chose to invest through capitalization-weighted index funds. If they believed markets were inefficient, they picked active management.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "root",
+                    "version": 1
+                    }
+                },
+                "url": "/beqifrc-vietnam-smart-beta-indexes"
+            },
+            {
+                "title": "BeQ/IFRC Vietnam Provincial indexes",
+                "cover_image": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752720249/post-img-4_mxepuf.webp",
+                "intro_title": "Introduction",
+                "introduction": {
+                    "root": {
+
+                    "children": [
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "At the national level, Vietnam is trying to improve its competitiveness and international integration. Within the scope of local, regional leaders (province, city) were also eager to reform and develop policies and strategies for local economic development.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    },
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "The competition is silent, drastic and effective but has not been evaluated completely. PAPI (The Vietnam Provincial Governance and Public Administration Performance Index) and PCI (Provincial Competitiveness Index) biased towards measuring policy effectiveness.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "root",
+                    "version": 1
+                    }
+                },
+                "url": "/beqifrc-vietnam-provincial-indexes"
+            },
+            {
+                "title": "BeQ/IFRC Customised indexes",
+                "cover_image": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752720249/post-img-4_mxepuf.webp",
+                "intro_title": "Introduction",
+                "introduction": {
+                    "root": {
+
+                    "children": [
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Customized index services refer to the provision of tailored index solutions to meet specific requirements of clients. Rather than using off-the-shelf or standardized indexes, customized index services offer the flexibility to design and create indexes that align with the unique needs and objectives of individual clients.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    },
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Customized index services typically involve collaboration between the index provider and the client to define the desired index methodology, constituents, weighting schemes, and rebalancing rules.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    },
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "BeQ/IFRC leverages their expertise in index construction and calculation to develop a bespoke index that meets the client’s specific criteria.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "root",
+                    "version": 1
+                    }
+                },
+                "url": "/beqifrc-customised-indexes"
+            },
+            {
+                "title": "BeQ/IFRC Research indexes",
+                "cover_image": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752720249/post-img-4_mxepuf.webp",
+                "intro_title": "Introduction",
+                "introduction": {
+                    "root": {
+
+                    "children": [
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Like CRSP for the United States, or EUROFIDAI for Europe, CCPR/IFRC offer a complete range of Vietnam and international indexes, ready and free for research.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    },
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "For the Vietnam stock markets:",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    },
+
+                    {
+
+                    "children": [
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 1,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Market Indexes",
+                    "type": "text",
+                    "version": 1
+                    },
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": " (TMI, HSX, HNX) : 3 primary indexes",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "listitem",
+                    "version": 1,
+                    "textFormat": 1,
+                    "value": 1
+                    },
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 1,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Size Indexes",
+                    "type": "text",
+                    "version": 1
+                    },
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": " (Large, Mid, Small, Mid & Small), designed following different methodologies : 8 primary indexes",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "listitem",
+                    "version": 1,
+                    "textFormat": 1,
+                    "value": 2
+                    },
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 1,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Quintiles",
+                    "type": "text",
+                    "version": 1
+                    },
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": " (by market capitalization) : 5 primary indexes",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "listitem",
+                    "version": 1,
+                    "textFormat": 1,
+                    "value": 3
+                    },
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 1,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Sector Indexes",
+                    "type": "text",
+                    "version": 1
+                    },
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": " (10 major sectors) : 10 primary indexes",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "listitem",
+                    "version": 1,
+                    "textFormat": 1,
+                    "value": 4
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "list",
+                    "version": 1,
+                    "listType": "bullet",
+                    "start": 1,
+                    "tag": "ul"
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "root",
+                    "version": 1
+                    }
+                },
+                "url": "/beqifrc-indexes-and-portfolios-free-and-ready-for-research"
+            },
+            {
+                "title": "BeQ/IFRC Artificial Intelligence (AI) indexes",
+                "cover_image": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752720249/post-img-4_mxepuf.webp",
+                "intro_title": "Artificial Intelligence (AI) indexes",
+                "introduction": {
+
+                    "root": {
+
+                    "children": [
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "are used to track the performance of companies that are at the forefront of AI technology and innovation.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    },
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "These indexes select and weight companies based on their AI-related activities, such as research and development, patent filings, and revenue derived from AI products or services. AI equity indexes provide investors with exposure to AI-focused companies, allowing them to capitalize on the growth potential of the AI industry and make targeted investments in this emerging sector.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "root",
+                    "version": 1
+                    }
+                },
+                "url": "/beqifrc-artificial-indexes-indexes"
+            },
+            {
+                "title": "BeQ/IFRC Volatility indexes",
+                "cover_image": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752720249/post-img-4_mxepuf.webp",
+                "intro_title": "Volatility indexes",
+                "introduction": {
+                    "root": {
+
+                    "children": [
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "are important tools for measuring and assessing market volatility, managing risk, and making informed investment decisions.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    },
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "They help investors gauge market uncertainty, evaluate risk levels, and identify potential trends and turning points. Volatility indexes also play a key role in option pricing, portfolio diversification, volatility trading strategies, and risk management techniques. Overall, they provide valuable insights into market volatility and assist in navigating the complexities of financial markets.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "root",
+                    "version": 1
+                    }
+                },
+                "url": "/beqifrc-volatility-indexes"
+            },
+            {
+                "title": "BeQ/IFRC Sentiment/Fear & Greed indexes",
+                "cover_image": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752720249/post-img-4_mxepuf.webp",
+                "intro_title": "Sentiment indexes",
+                "introduction": {
+                    "root": {
+
+                    "children": [
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "are used to gauge the overall sentiment or mood of a particular market or asset class, such as stocks or cryptocurrencies.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    },
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "They track and measure positive or negative sentiment based on factors like social media sentiment analysis, news sentiment, or surveys.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    },
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "These indexes provide insights into market sentiment, helping investors and traders understand market psychology, make informed decisions, and identify potential market trends or reversals.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "root",
+                    "version": 1
+                    }
+                },
+                "url": "/beqifrc-artificial-indexes-indexes"
+            },
+            {
+                "title": "BeQ/IFRC Currency indexes",
+                "cover_image": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752720249/post-img-4_mxepuf.webp",
+                "intro_title": "Currency indexes",
+                "introduction": {
+                    "root": {
+
+                    "children": [
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "are used for comparing the relative strength or weakness of currencies, managing currency portfolios, measuring investment performance, assessing currency risk, conducting economic analysis, formulating trading strategies, and informing policy decisions.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    },
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "They provide a standardized framework for evaluating currencies, aiding decision-making in finance, investment, trade, and policymaking.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "root",
+                    "version": 1
+                    }
+                },
+                "url": "/beqifrc-currency-indexes"
+            },
+            {
+                "title": "BeQ/IFRC Crypto Currency indexes",
+                "cover_image": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752720249/post-img-4_mxepuf.webp",
+                "intro_title": "Crypto currency indexes",
+                "introduction": {
+                    "root": {
+
+                    "children": [
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "are used to analyze the overall performance of the crypto market, track portfolio performance, develop investment strategies, manage risk, conduct research, and serve as benchmarks for trading and investment products.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    },
+
+                    {
+
+                    "children": [
+
+                    {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "They provide a standardized framework for understanding the crypto market, aiding decision-making and evaluation of crypto investments.",
+                    "type": "text",
+                    "version": 1
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "justify",
+                    "indent": 0,
+                    "type": "paragraph",
+                    "version": 1,
+                    "textFormat": 0,
+                    "textStyle": ""
+                    }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "root",
+                    "version": 1
+                    }
+                },
+                "url": "/beqifrc-artificial-indexes-indexes"
+            }
+        ]
+    }
+}

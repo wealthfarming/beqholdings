@@ -13,7 +13,7 @@ interface Post {
     title: string;
     createdAt: string;
     updatedAt: string;
-  };
+  }[];
   description: any;
   cover_image: string;
   image?: {

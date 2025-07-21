@@ -26,7 +26,7 @@ export function getCustomRichTextConverters(defaultConverters: any) {
     },
     paragraph: ({ node, nodesToJSX, converters, parent, childIndex }: any) => {
       const children = nodesToJSX({ nodes: node.children, parent, converters });
-      return <p className="mt-2 mb-4 text-[#FFFFFFBF] leading-relaxed text-base md:text-lg">{children}</p>;
+      return <p className="mt-2 mb-4 text-[#FFFFFFBF] leading-relaxed text-base md:text-base">{children}</p>;
     },
     text: ({ node }: any) => {
       const FORMAT_BOLD = 1 << 0;

@@ -21,7 +21,7 @@ interface Post {
     title: string;
     createdAt: string;
     updatedAt: string;
-  };
+  }[];
   description: any;
   cover_image: string;
   image?: {
@@ -82,7 +82,18 @@ export default function News({ postsByLanguage, recentPosts, previewPosts, slug 
       <div className="mt-[100px] mx-[17%] max-lg:mx-[5%] pb-4">
         <div className="flex flex-col gap-6 py-16 max-lg:py-12">
           <div className="flex gap-4 items-center">
-            <div className="text-[#BF9B30] text-base">{post.category.title}</div>
+            <div className="flex gap-2">
+              {post.category.length > 0 && (
+                <div className="flex gap-1">
+                  {post.category.map((cat, index) => (
+                    <span key={index} className="text-[#BF9B30] text-base">
+                      {cat.title}
+                      {index < post.category.length - 1 && ","} 
+                    </span>
+                  ))}
+                </div>
+              )}
+            </div>
             <div className="w-1 h-1 bg-red-500 rounded-full"></div>
             <div className="text-base">10 min read</div>
           </div>

@@ -15,7 +15,7 @@ interface Post {
     title: string;
     createdAt: string;
     updatedAt: string;
-  };
+  }[];
   description: any;
   cover_image: string;
   image?: {
@@ -69,9 +69,20 @@ export default function PreviewPost({ post }: Props) {
           <div className="text-[15px] text-white font-medium">5 min read</div>
         </div>
         <h4 className="text-[25px] text-[#BF9B30] font-bold">{post.title}</h4>
-        <div className="flex flex-wrap text-[14px] gap-2">
-          <a className="bg-[#9690A280] text-[#BF9B30] py-1 px-2 rounded-sm">{post.category.title}</a>
-        </div>
+        {post.category.length > 0 && (
+          <div className="flex flex-wrap text-[14px] gap-x-[6px] gap-y-[10px]">
+            {post.category.map((cat, index) => (
+              <span key={index}>
+                <a
+                  href={`/category/${cat.id}`}
+                  className="bg-[#9690A280] text-[#BF9B30] py-1 px-2 rounded-sm"
+                >
+                  {cat.title}
+                </a>
+              </span>
+            ))}
+          </div>
+        )}
         <a
           className="group w-fit relative flex items-center gap-2 py-2 px-3 rounded-md transition-colors duration-300 ease-in-out hover:bg-white/10 overflow-hidden"
           href={`/${post.slug}`}

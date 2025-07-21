@@ -15,7 +15,7 @@ interface Post {
     title: string;
     createdAt: string;
     updatedAt: string;
-  };
+  }[];
   description: any;
   cover_image: string;
   image?: {
@@ -82,9 +82,19 @@ export default function PostCard({ post }: Props) {
           </a>
         </h4>
         <p className="text-base text-[#FFFFFFBF] flex-grow">{shortDescription}</p>
-        <div className="flex flex-wrap text-[14px] gap-2">
-          <a className="bg-[#9690A226] text-[#FFFFFFBF] py-1 px-2 rounded-sm">{post.category.title}</a>
-        </div>
+        {post.category.length > 0 && (
+          <div className="flex flex-wrap text-[14px] gap-[6px]">
+            {post.category.map((cat, index) => (
+              <a
+                key={index}
+                href={`/category/${cat.id}`}
+                className="bg-[#9690A226] text-[#FFFFFFBF] py-1 px-2 rounded-sm"
+              >
+                {cat.title}
+              </a>
+            ))}
+          </div>
+        )}
         <a
           className="group w-fit relative flex items-center gap-2 py-2 px-3 rounded-md transition-colors duration-300 ease-in-out hover:bg-white/10 overflow-hidden"
           href={`/${post.slug}`}
