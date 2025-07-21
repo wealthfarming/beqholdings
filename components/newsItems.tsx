@@ -2,7 +2,10 @@
 type PostCardProps = {
     id: string;
     title: string;
-    category: string;
+    category: {
+        id: string;
+        title: string;
+    }[];
     publicDate: string;
     timeRead: string;
     image: string;
@@ -47,9 +50,22 @@ const PostCard: React.FC<PostCardProps> = ({
                     </h3>
 
                     {/* Category */}
-                    <div className="text-sm text-white/80 bg-gray-100/20 rounded p-2 w-fit">
-                        {category}
-                    </div>
+                    {
+                        Array.isArray(category) && category.slice(0, 2).map(
+                            (cat, index) => (
+                                <div key={index} className="text-sm text-white/80 bg-gray-100/20 rounded p-2 w-fit">
+                                    {cat.title}
+                                </div>
+                            )
+                        )
+                    }
+                    {
+                        category.length > 2 && (
+                            <div className="text-sm text-white/80 bg-gray-100/20 rounded p-2 w-fit">
+                                +{category.length - 2} more
+                            </div>
+                        )
+                    }
                 </div>
 
 
