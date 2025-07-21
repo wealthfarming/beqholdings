@@ -3,7 +3,6 @@ import { notFound } from 'next/navigation';
 import EnPostData from '@/data/news/english.json';
 import ViPostData from '@/data/news/vietnamese.json'
 
-// Define the type for the news data
 interface Post {
   id: string;
   title: string;
