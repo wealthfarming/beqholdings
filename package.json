@@ -22,6 +22,7 @@
     "axios": "^1.10.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.6.0",
     "date-fns": "^4.1.0",
     "framer-motion": "^12.23.6",
     "i18next": "^25.3.2",
@@ -30,6 +31,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-i18next": "^15.6.0",
+    "swiper": "^11.2.10",
     "sonner": "^2.0.6",
     "tailwind-merge": "^3.3.1"
   },

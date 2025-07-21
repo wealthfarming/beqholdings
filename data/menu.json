@@ -7,11 +7,10 @@
     },
     {
       "title": { "en": "About" },
-      "url": "/about",
       "children": [
         {
           "title": { "en": "Beq Holdings" },
-          "url": "/beqholdings",
+          "url": "/about-us",
           "open_in_new_tab": false,
           "children": []
         },
