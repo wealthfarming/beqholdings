@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Progress } from "../ui/progress";
 import { useEffect } from "react";
+import { useRef } from "react";
 
 const project = [
     {
@@ -75,10 +76,32 @@ const HomeSection5 = () => {
 }
 export default HomeSection5;
 
-
 const ProjectRate = ({ lable, value }: { lable: string, value: number }) => {
-    const [processValue, setProcessValue] = useState(value);
+    const [processValue, setProcessValue] = useState(0);
+    const [inView, setInView] = useState(false);
+    const ref = useRef<HTMLDivElement>(null);
+
     useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setInView(true);
+                }
+            },
+            { threshold: 0.2 }
+        );
+        if (ref.current) {
+            observer.observe(ref.current);
+        }
+        return () => {
+            if (ref.current) {
+                observer.unobserve(ref.current);
+            }
+        };
+    }, []);
+
+    useEffect(() => {
+        if (!inView) return;
         let start = 0;
         const stepTime = 50;
         const increment = 2;
@@ -94,10 +117,11 @@ const ProjectRate = ({ lable, value }: { lable: string, value: number }) => {
         }, stepTime);
 
         return () => clearInterval(interval);
-    }, [value]);
+    }, [inView, value]);
+
     return (
-        <div className="flex flex-col items-start justify-center w-full gap-2">
-            <h6 className="text-[1.025rem] font-bold text-[#82838A]">
+        <div ref={ref} className="flex flex-col items-start justify-center w-full gap-2">
+            <h6 className="text-[1.025rem] font-bold text-[#BF9B30]">
                 {lable}
             </h6>
             <div className="w-full flex flex-row items-center justify-between gap-4">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import I18nProvider from "@/components/provider/i18nProvider";
+import LanguageChange from "@/components/language-button";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,10 +33,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
       <body
-        
+
         className={`${geistSans.variable} ${geistMono.variable} ${playfairDisplay.className} antialiased`}
       >
-        <I18nProvider>{children}</I18nProvider>
+        <I18nProvider>
+          {children}
+        </I18nProvider>
       </body>
     </html>
   );

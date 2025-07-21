@@ -1,0 +1,30 @@
+[
+    {
+        "timestamp": "Tuesday18 April, 2023",
+        "title": "Unlock Business Value",
+        "images": [
+            {
+                "alt": "Unlock Business Value 1",
+                "url": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752653665/event-1_xvke1e.webp"
+            },
+            {
+                "alt": "Unlock Business Value 2",
+                "url": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752653665/event-2_i2vwlt.webp"
+            }
+        ]
+    },
+    {
+        "timestamp": "Friday March 31st, Saturday-Sunday 1st and 2nd April 2023",
+        "title": "Index Investing",
+        "images": [
+            {
+                "alt": "Index Investing 1",
+                "url": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752653665/event-3_kys6mr.webp"
+            },
+            {
+                "alt": "Index Investing 2",
+                "url": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752653665/event-4_kwnr8u.webp"
+            }
+        ]
+    }
+]

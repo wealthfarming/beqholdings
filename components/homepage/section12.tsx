@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 const HomeSection12 = () => {
     return (
-        <section className="flex flex-col items-center justify-center w-full gap-8 py-8 md:py-16 ">
+        <section className="flex flex-col items-center justify-center w-full gap-8 py-8 md:py-8 ">
             <div className="flex flex-col md:flex-row items-start justify-between w-full max-w-6xl px-4 gap-8">
                 <div className="md:w-1/2 w-full flex flex-col items-start justify-center">
                     <h2 className="text-3xl font-bold  mb-4">

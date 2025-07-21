@@ -13,7 +13,7 @@ const HomeSection10 = () => {
                     />
                 </div>
                 <div className="flex flex-col gap-8 lg:w-[60%] w-full py-32 px-8 justify-center items-end">
-                    <div className="w-full lg:w-[75%]">
+                    <div className="w-full lg:w-[90%]">
                         <div className="flex flex-col gap-2">
                             <h6 className="text-[.9rem] font-thin capitalize">
                                 OUR ADVANTAGES
@@ -23,7 +23,7 @@ const HomeSection10 = () => {
                                 Long-Term Cooperation
                             </h4>
                         </div>
-                        <p className=" text-[1.025rem] font-bold text-[#82838A] mb-4 w-full">
+                        <p className=" text-[1.025rem] font-bold text-[#82838A] mb-4 w-[80%]">
                             BeQ Holdings has inherited the achievement of calculating 22,889 indexes (Vietnam and International) from IFRC – essential for investors who want to make informed decisions about their investment portfolio.
                         </p>
                     </div>
