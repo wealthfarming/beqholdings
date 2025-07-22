@@ -1,5 +1,7 @@
+"use client"
 import Image from "next/image";
-
+import PageHeader from "@/components/header";
+import Footer from "@/components/footer";
 export default function Team() {
     const leaderData = [
         {
@@ -39,6 +41,11 @@ export default function Team() {
 
     return (
         <div className="flex flex-col w-full">
+            <div className="w-full flex relative mt-5">
+                <div className="w-full flex flex-col items-center justify-center absolute top-0 z-20">
+                    <PageHeader />
+                </div>
+            </div>
             <div className="flex md:py-24 py-12 w-full">
                 <div className="md:text-[72px] text-[48px] font-bold mx-auto">Team</div>
             </div>
@@ -94,6 +101,7 @@ export default function Team() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

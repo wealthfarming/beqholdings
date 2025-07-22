@@ -9,8 +9,9 @@ import {
   CarouselPrevious,
   CarouselNext,
 } from "@/components/ui/carousel";
-import { Card, CardContent } from "@/components/ui/card";
 import { ChevronLeft } from "lucide-react";
+import Footer from "@/components/footer";
+import PageHeader from "@/components/header";
 
 export default function AboutUs() {
   const baseImages = [
@@ -69,6 +70,11 @@ export default function AboutUs() {
           backgroundRepeat: "no-repeat",
         }}
       >
+        <div className="w-full flex relative h-[25vh] md:h-[40vh] mt-5">
+                <div className="w-full flex flex-col items-center justify-center absolute top-0 z-20">
+                    <PageHeader />
+                </div>
+            </div>
         <div className="flex mt-[125px]">
           <div className="ml-6 max-md:hidden relative group">
             <ChevronLeft width={56} className="hover:cursor-pointer" />
@@ -406,6 +412,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

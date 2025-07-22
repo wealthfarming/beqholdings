@@ -52,7 +52,7 @@ const linkLogo = [
 ]
 const HomeSection8 = () => {
     return (
-        <section className="py-8 w-full mx-auto">
+        <section className="py-15 w-full mx-auto dark:bg-[#111111]">
             <h2 className="text-center text-[3.25rem] font-bold mb-8"
                 style={{
                     lineHeight: '3.5rem',

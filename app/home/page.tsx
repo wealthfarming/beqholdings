@@ -16,8 +16,6 @@ import HomeSection12 from '@/components/homepage/section12';
 import PageHeader from '@/components/header';
 import NewsSections from '@/components/homepage/news';
 const HomePage = () => {
-    const { t } = useTranslation();
-
     return (
         <div className="flex flex-col items-center justify-center min-h-screen gap-8">
             <PageHeader />
