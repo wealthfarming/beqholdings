@@ -1,15 +1,12 @@
 'use client';
 import PageHeader from "@/components/header";
+import Footer from "@/components/footer";
 import Image from "next/image";
-import dataVN from '@/data/news/vietnamese.json';
-import dataEN from '@/data/news/english.json';
 import PostCard, { PostCardProps } from "@/components/newsItems";
 import React, { useState } from "react";
 import postVN from "@/data/news/vietnamese.json";
 import postEN from "@/data/news/english.json";
 import LanguageChange from "@/components/language-button";
-import { useParams } from "next/navigation";
-
 
 const NewsPage = () => {
     const searchParams = typeof window !== "undefined" ? new URLSearchParams(window.location.search) : null;
@@ -27,17 +24,18 @@ const NewsPage = () => {
                     const data: PostCardProps[] = postVN.map((item) => ({
                         id: item.id,
                         title: item.title,
+                        slug: item.slug,
                         category: Array.isArray(item.category)
                             ? item.category.map(cat => ({
                                 id: cat.id,
                                 title: cat.title,
                             }))
                             : [{
-                                id: item.category.id,
-                                title: item.category.title,
+                                id: (item.category as any).id,
+                                title: (item.category as any).title,
                             }],
                         publicDate: new Date(item.createdAt).toLocaleDateString(),
-                        timeRead: (item.description.root.children.length) + " min read",
+                        timeRead: (item.description?.root?.children?.length || 0) + " min read",
                         image: item.cover_image,
                     }));
                     setPostData(data);
@@ -46,17 +44,18 @@ const NewsPage = () => {
                     const data: PostCardProps[] = postEN.map((item) => ({
                         id: item.id,
                         title: item.title,
+                        slug: item.slug,
                         category: Array.isArray(item.category)
                             ? item.category.map(cat => ({
                                 id: cat.id,
                                 title: cat.title,
                             }))
                             : [{
-                                id: item.category.id,
-                                title: item.category.title,
+                                id: (item.category as any).id,
+                                title: (item.category as any).title,
                             }],
                         publicDate: new Date(item.createdAt).toLocaleDateString(),
-                        timeRead: (item.description.root.children.length) + " min read",
+                        timeRead: (item.description?.root?.children?.length || 0) + " min read",
                         image: item.cover_image,
                     }));
                     setPostData(data);
@@ -72,7 +71,7 @@ const NewsPage = () => {
     return (
         <div className="flex flex-col items-center justify-start min-h-screen">
             <div className="w-full flex relative h-[25vh] md:h-[40vh]">
-                <div className="w-full flex flex-col items-center justify-center absolute top-0 z-20">
+                <div className="mt-5 w-full flex flex-col items-center justify-center absolute top-0 z-50">
                     <PageHeader />
                 </div>
                 <div className="w-full h-[25vh] md:h-[40vh] absolute top-0 left-0 z-10">
@@ -101,6 +100,7 @@ const NewsPage = () => {
                             key={index}
                             id={item.id}
                             title={item.title}
+                            slug={item.slug}
                             category={item.category}
                             publicDate={item.publicDate}
                             timeRead={item.timeRead}
@@ -111,6 +111,7 @@ const NewsPage = () => {
                 }
             </div>
             <LanguageChange />
+            <Footer />
         </div>
     );
 }

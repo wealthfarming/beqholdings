@@ -1,20 +1,15 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
-import {
-    Carousel,
-    CarouselContent,
-    CarouselItem,
-    CarouselPrevious,
-    CarouselNext,
-} from "@/components/ui/carousel";
-import { Card, CardContent } from "@/components/ui/card";
-import { ChevronLeft, Star } from "lucide-react";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 export default function Partners() {
     return (
         <div className="flex flex-col w-full items-center">
+            <div className="mt-5">
+                <Header />
+            </div>
             <div className="md:mx-10 md:px-5 md:py-24 max-md:mx-5 max-md:py-12">
                 <div className="text-[72px] max-md:text-[48px] font-bold mx-auto">Partners</div>
             </div>
@@ -47,7 +42,7 @@ export default function Partners() {
                         </div>
                     </div>
                 </div>
-                <div className="text-white flex flex-col items-center justify-center p-4 md:mb-10 max-md:hidden">
+                <div className="text-white flex flex-col items-center justify-center p-4 max-md:hidden">
                     <div className="flex flex-col max-md:gap-12">
                         <div className="flex md:py-[10px] max-md:flex-col">
                             <div className="flex flex-col p-[10px] md:gap-5">
@@ -74,42 +69,16 @@ export default function Partners() {
                 </div>
                 <div className="text-white flex flex-col items-center justify-center p-4 md:mb-10">
                     <div className="flex flex-col max-md:gap-12">
-                        <Image
-                            src={'https://res.cloudinary.com/dyavs1cdn/image/upload/v1752824037/whishare-logo_sccgup.png'}
-                            alt=""
-                            width={427}
-                            height={217}
-                            className="p-[10px] md:w-[370px] md:h-[370px]"
-                        >
-                        </Image>
-                        <div className="flex md:py-[10px] max-md:flex-col">
-                            <div className="flex flex-col p-[10px] md:gap-5">
-                                <h2 className="text-[36px] font-bold mb-2 tracking-[-1.26px] whitespace-nowrap">Wishare</h2>
-                                <div className="flex flex-col">
-                                    <div className="mt-4 text-base text-white opacity-75">
-                                        Wishare Co., Ltd. is a technology company that pursues the purpose of applying technology to maximize social impact. The company building the Wishare platform is a social network that shares dreams and promotes activities for social advancement.
-                                    </div>
-                                    <div className="mt-4 text-base text-white opacity-75">
-                                        Fundraising and charity management platform
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div className="text-white flex flex-col items-center justify-center p-4 md:mb-10">
-                    <div className="flex flex-col max-md:gap-12">
-                        <div className="flex md:py-[10px] max-md:flex-col justify-center items-center">
+                        <div className="flex max-md:flex-col justify-center items-center">
                             <Image
                                 src={'https://res.cloudinary.com/dyavs1cdn/image/upload/v1752824036/Allsports_vj0fzb.webp'}
                                 alt=""
                                 width={327}
                                 height={131}
-                                className="p-[10px] md:w-[327px] md:h-[131px]"
+                                className="md:w-[327px] md:h-[131px]"
                             >
                             </Image>
-                            <div className="flex flex-col p-[10px] md:gap-5">
+                            <div className="flex flex-col p-[10px] ml-10 md:gap-5">
                                 <h2 className="text-[36px] font-bold mb-2 tracking-[-1.26px] whitespace-nowrap">AllSports Business</h2>
                                 <div className="flex flex-col">
                                     <div className="mt-4 text-base text-white opacity-75">
@@ -124,7 +93,7 @@ export default function Partners() {
                     </div>
                 </div>
             </div>
-
+            <Footer />
         </div>
     );
 }

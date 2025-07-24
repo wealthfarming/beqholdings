@@ -1,6 +1,8 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 export default function Contact() {
     const [formData, setFormData] = useState({
@@ -38,6 +40,9 @@ export default function Contact() {
                     backgroundRepeat: "no-repeat",
                 }}
             >
+                <div className="mt-5 flex justify-center">
+                    <Header />
+                </div>
                 <div className="flex md:w-[1260px] md:px-5 mx-auto md:py-24 h-full">
                     <div className="flex flex-col max-md:mx-5 max-md:py-12 h-full justify-end">
                         <div className="text-[72px] max-md:text-[48px] font-bold tracking-[-3.24px]">Contact us</div>
@@ -192,7 +197,7 @@ export default function Contact() {
                         </form>
                     </div>
                 </div>
-
+                <Footer />
             </div>
         </div>
     );

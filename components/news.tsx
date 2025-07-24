@@ -11,6 +11,7 @@ import { format, parseISO } from "date-fns";
 import { toast } from "sonner";
 import LanguageChange from "./language-button";
 import Image from "next/image";
+import Header from "./header";
 
 interface Post {
   id: string;
@@ -78,8 +79,11 @@ export default function News({ postsByLanguage, recentPosts, previewPosts, slug 
 
   return (
     <>
+      <div className="mt-5 flex justify-center">
+        <Header />
+      </div>
       <LanguageChange />
-      <div className="mt-[100px] mx-[17%] max-lg:mx-[5%] pb-4">
+      <div className=" mx-[17%] max-lg:mx-[5%] pb-4">
         <div className="flex flex-col gap-6 py-16 max-lg:py-12">
           <div className="flex gap-4 items-center">
             <div className="flex gap-2">

@@ -111,7 +111,7 @@ export function getCustomRichTextConverters(defaultConverters: any) {
             alt={alt}
             width={width}
             height={height}
-            className="rounded-lg shadow-md max-w-full h-auto"
+            className="shadow-md max-w-full h-auto mx-auto"
           />
         </div>
       );

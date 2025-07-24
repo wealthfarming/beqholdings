@@ -12,7 +12,7 @@ import Footer from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Star } from "lucide-react";
-
+import Header from "@/components/header";
 
 interface Indexes {
   title: string;
@@ -71,6 +71,9 @@ export default function IndexesPage() {
                 objectPosition: "top"
                 }}
             />
+             <div className="mt-5 flex justify-center">
+                <Header />
+            </div>
             <div className="absolute inset-0" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
                 <div className="absolute inset-x-0 bottom-0 p-12 lg:p-24">
                     <h1 className="text-center font-bold text-5xl lg:text-7xl text-white">Indexes</h1>
@@ -99,12 +102,16 @@ export default function IndexesPage() {
                         <div>
                             <div className="text-center text-[40px] text-[#BF9B30] font-bold">{post.title}</div>
                             <div className="flex max-md:flex-col justify-center gap-4 pt-15">
-                                <div className="max-w-full lg:max-w-[30%]">
-                                    <Image 
-                                        src={post.cover_image} 
-                                        alt="" 
-                                        width={1280} 
-                                        height={800}/>
+                                <div className="w-[407px] h-[228px] flex-shrink-0" style={{ width: '407px', height: '228px', minWidth: '407px', minHeight: '228px' }}>
+                                    <Image
+                                        src={`${post.cover_image}`}
+                                        alt=""
+                                        width={407}
+                                        height={228}
+                                        className="w-full h-full object-cover"
+                                        style={{ width: '100%', height: '100%' }}
+                                        unoptimized
+                                    />
                                 </div>
                                 <div>
                                     <h3 className="text-3xl font-bold text-white">{post.intro_title}</h3>

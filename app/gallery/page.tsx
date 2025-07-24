@@ -1,6 +1,15 @@
 'use client'
 import Image from "next/image";
 import { useEffect } from "react";
+import Header from "@/components/header"
+import Footer from "@/components/footer"
+import SearchGalleryComponent from "@/components/SearchGalleryComponent"
+import OfficeVisitComponent from "@/components/OfficeVisitComponent"
+import CommunityGalleryComponent from "@/components/CommunityGalleryComponent"
+import TrainingProgramComponent from "@/components/TrainingProgramComponent"
+import WhiteGroupGalleryComponent from "@/components/WhiteGroupGalleryComponent"
+import SingaporeTripGalleryComponent from "@/components/SingaporeTripGalleryComponent"
+import EventGalleries from "@/components/EventGalleries"
 
 export default function Gallery() {
     useEffect(() => {
@@ -44,33 +53,17 @@ export default function Gallery() {
 
     return (
         <div className="flex flex-col items-center">
-            <div className="w-[1300px] h-[731px]">
-                <video
-                    className="w-full h-full object-cover"
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                    controls
-                >
-                    <source
-                        src="https://res.cloudinary.com/dyavs1cdn/video/upload/v1752830633/VIDEO_DOWNLOAD_1699361669633_1699503230588_spukt4.mp4"
-                        type="video/mp4"
-                    />
-                    Your browser does not support the video tag.
-                </video>
+            <div className="mt-5 flex justify-center">
+                <Header />
             </div>
-            <div className="flex w-full p-5 space-x-5">
-                <div className="relative overflow-hidden p-5 image-container">
-                    <Image width={595} height={595} alt="" src="https://res.cloudinary.com/dyavs1cdn/image/upload/v1753237992/processed-d4d7b2aa-0ed5-41ef-a1cf-b359e5c13f28_stFFQvoA_wpg6dt.webp" className="transition-transform duration-500 ease-in-out transform" />
-                </div>
-                <div className="relative overflow-hidden p-5 image-container">
-                    <Image width={595} height={595} alt="" src="https://res.cloudinary.com/dyavs1cdn/image/upload/v1753237992/processed-d4d7b2aa-0ed5-41ef-a1cf-b359e5c13f28_stFFQvoA_wpg6dt.webp" className="transition-transform duration-500 ease-in-out transform" />
-                </div>
-                <div className="relative overflow-hidden p-5 image-container">
-                    <Image width={595} height={595} alt="" src="https://res.cloudinary.com/dyavs1cdn/image/upload/v1753237992/processed-d4d7b2aa-0ed5-41ef-a1cf-b359e5c13f28_stFFQvoA_wpg6dt.webp" className="transition-transform duration-500 ease-in-out transform" />
-                </div>
-            </div>
+            <SearchGalleryComponent />
+            <OfficeVisitComponent />
+            <CommunityGalleryComponent />
+            <TrainingProgramComponent />
+            <WhiteGroupGalleryComponent />
+            <SingaporeTripGalleryComponent />
+            <EventGalleries />
+            <Footer />
         </div>
     );
 }

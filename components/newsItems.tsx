@@ -2,6 +2,7 @@
 type PostCardProps = {
     id: string;
     title: string;
+    slug: string;
     category: {
         id: string;
         title: string;
@@ -11,10 +12,10 @@ type PostCardProps = {
     image: string;
 };
 
-
 const PostCard: React.FC<PostCardProps> = ({
     id,
-    title,
+    title,  
+    slug,
     category,
     publicDate,
     timeRead,
@@ -22,7 +23,7 @@ const PostCard: React.FC<PostCardProps> = ({
 }) => {
     return (
         <div
-            onClick={() => window.location.href = `/posts/${id}`}
+            onClick={() => window.location.href = `/${slug}`}
             key={id}
             className="relative w-full lg:w-[260px] h-[50vh] lg:h-[270px] rounded-md cursor-pointer overflow-hidden text-white shadow-lg"
         >
@@ -48,7 +49,6 @@ const PostCard: React.FC<PostCardProps> = ({
                     <h3 className="text-[1.5rem] font-semibold leading-snug line-clamp-3 ">
                         {title}
                     </h3>
-
                     {/* Category */}
                     {
                         Array.isArray(category) && category.slice(0, 2).map(
@@ -67,8 +67,6 @@ const PostCard: React.FC<PostCardProps> = ({
                         )
                     }
                 </div>
-
-
             </div>
         </div>
     );

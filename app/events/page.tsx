@@ -4,6 +4,8 @@ import eventsData from "@/data/events.json"
 import Image from "next/image"
 import ImageDialog from "@/components/images-dialog"
 import { motion } from "framer-motion"
+import Header from "@/components/header"
+import Footer from "@/components/footer"
 
 interface ImageItem {
   alt: string
@@ -39,6 +41,9 @@ export default function EventsPage() {
 
   return (
     <div className="bg-[#111111]">
+      <div className="mt-5 flex justify-center">
+        <Header />
+      </div>
       <div className="flex flex-col gap-15 justify-center px-10 lg:px-16 py-12">
         <h2 className="text-center font-bold text-[38px] lg:text-[52px] text-white mb-12">Events</h2>
         <div className="flex flex-col gap-10">
@@ -80,6 +85,7 @@ export default function EventsPage() {
         onClose={closeDialog}
         clickedLayoutId={dialogClickedLayoutId} // Pass the specific clicked layoutId
       />
+      <Footer />
     </div>
   )
 }
