@@ -105,16 +105,6 @@ export default function News({ postsByLanguage, recentPosts, previewPosts, slug 
           <div className="text-lg pl-8 max-lg:text-base">{format(parseISO(post.createdAt), "yyyy-MM-dd")}</div>
         </div>
 
-        <div className="w-full">
-          <Image
-            src={post.cover_image}
-            alt={"Image"}
-            width={1280}
-            height={800}
-            className="rounded-lg shadow-md max-w-full"
-          />
-        </div>
-
         <div className="flex flex-col gap-4 px-4 pt-15 max-lg:pt-5">
           <RichText
               data={post.description}

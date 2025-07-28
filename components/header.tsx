@@ -1,3 +1,4 @@
+'use client'
 import * as React from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -411,7 +412,7 @@ const Header = () => {
                 <div className="logo-dynamic">
                   <span className="dark hidden">
                     <img
-                      src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%20%200%200%200'%3E%3C/svg%3E"
+                      src="https://beqholdings.com/wp-content/uploads/2023/04/BEQ-HOLDINGS-logo-dark.png"
                       alt="BEQ HOLDINGS"
                       loading="lazy"
                       data-lazy-src="https://beqholdings.com/wp-content/uploads/2023/12/BEQ-HOLDINGS-logo-white.png"
@@ -425,7 +426,7 @@ const Header = () => {
                   </span>
                   <span className="light hidden">
                     <img
-                      src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%20%200%200%200'%3E%3C/svg%3E"
+                      src="https://beqholdings.com/wp-content/uploads/2023/04/BEQ-HOLDINGS-logo-dark.png"
                       alt="BEQ HOLDINGS"
                       loading="lazy"
                       data-lazy-src="https://beqholdings.com/wp-content/uploads/2023/04/BEQ-HOLDINGS-logo-dark.png"

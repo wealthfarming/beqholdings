@@ -29,9 +29,9 @@ interface Post {
     focalY: number;
     createdAt: string;
     updatedAt: string;
-    url: string;
+    url: any;
     thumbnailURL: string | null;
-  } | string ;
+  } | string | any;
   createdAt: string;
   updatedAt: string;
   related?: string[];
@@ -63,7 +63,7 @@ export default function PostCard({ post }: Props) {
     <div className="flex flex-col w-full h-full">
       <Image
           className="rounded-t-lg max-w-full"
-          src={post.cover_image}
+          src={post.image?.url || ""}
           alt={post.title}
           width={1280}
           height={800}

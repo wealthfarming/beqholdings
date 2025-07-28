@@ -11,21 +11,19 @@ interface ImageItem {
   url: string
 }
 
-const CommunityGalleryComponent = () => {
+const InHouseTrainingComponent = () => {
   const [isDialogOpen, setIsDialogOpen] = useState(false)
   const [dialogImages, setDialogImages] = useState<ImageItem[]>([])
   const [dialogInitialIndex, setDialogInitialIndex] = useState(0)
   const [dialogClickedLayoutId, setDialogClickedLayoutId] = useState<string | null>(null)
 
   const images = [
-    { url: "https://beqholdings.com/wp-content/uploads/2023/09/z4704736206768_0506b655a7a7050d3d29569cf62c7421.jpg", alt: "" },
-    { url: "https://beqholdings.com/wp-content/uploads/2023/09/z4704736198479_443d0d3ae0e081c646773a49782cf1a1.jpg", alt: "" },
-    { url: "https://beqholdings.com/wp-content/uploads/2023/09/z4704736198475_a4cc09f77e013f4da88042437ab0da60.jpg", alt: "" },
-    { url: "https://beqholdings.com/wp-content/uploads/2023/09/z4704736197801_30b77b449b88b669a198c6d915bf84bb.jpg", alt: "" },
-    { url: "https://beqholdings.com/wp-content/uploads/2023/09/z4704736206769_37ddb89c6ed40f75174120d85cddef90-scaled.jpg", alt: "" },
-    { url: "https://beqholdings.com/wp-content/uploads/2023/09/z4704736208515_1c3eb79751ba4133ef428105d195c6fc.jpg", alt: "" },
-    { url: "https://beqholdings.com/wp-content/uploads/2023/09/z4704736201348_0eb186ec73398c457c1d065ffbd77008.jpg", alt: "" },
-    { url: "https://beqholdings.com/wp-content/uploads/2023/09/z4704736206840_26f726dc1d1536fc78d7fba66847e70a.jpg", alt: "" },
+    { url: "https://beqholdings.com/wp-content/uploads/2023/04/8N3A9666-scaled.jpg", alt: "" },
+    { url: "https://beqholdings.com/wp-content/uploads/2023/04/4X4A0306-scaled.jpg", alt: "" },
+    { url: "https://beqholdings.com/wp-content/uploads/2023/04/8N3A9726-scaled.jpg", alt: "" },
+    { url: "https://beqholdings.com/wp-content/uploads/2023/04/4X4A0293-scaled.jpg", alt: "" },
+    { url: "https://beqholdings.com/wp-content/uploads/2023/04/8N3A9587-scaled.jpg", alt: "" },
+    { url: "https://beqholdings.com/wp-content/uploads/2023/04/8N3A9872-scaled.jpg", alt: "" },
   ];
 
   const openDialog = (images: ImageItem[], initialIndex: number, clickedLayoutId: string) => {
@@ -43,16 +41,17 @@ const CommunityGalleryComponent = () => {
   }
 
   return (
-    <section className="container mx-auto px-4 py-8">
+    <section className="py-8">
       <div className="text-center mb-8">
+        <div className="subtitle text-lg">Saturday 15 April, 2023</div>
         <h3 className="title text-4xl font-bold text-[#BF9B30]">
-          Periodically offline community of Vietnam Kindness Business owners
+          In-house Team Training
         </h3>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {images.map((image, index) => {
-          const currentLayoutId = `community-gallery-image-${index}`
+          const currentLayoutId = `in-house-training-image-${index}`
           return (
             <motion.div 
               key={index}
@@ -91,4 +90,4 @@ const CommunityGalleryComponent = () => {
   );
 };
 
-export default CommunityGalleryComponent;
+export default InHouseTrainingComponent; 

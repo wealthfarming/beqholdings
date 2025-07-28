@@ -11,43 +11,19 @@ interface ImageItem {
   url: string
 }
 
-const WhiteGroupGalleryComponent = () => {
+const MOUSignatureComponent = () => {
   const [isDialogOpen, setIsDialogOpen] = useState(false)
   const [dialogImages, setDialogImages] = useState<ImageItem[]>([])
   const [dialogInitialIndex, setDialogInitialIndex] = useState(0)
   const [dialogClickedLayoutId, setDialogClickedLayoutId] = useState<string | null>(null)
 
   const images = [
-    {
-      url: "https://beqholdings.com/wp-content/uploads/2023/09/z4703058947364_38c1f35b95611016e16cea4b0aeaf6d7.jpg",
-      alt: "MOU BeQ Holdings and White Group",
-      title: "MOU BeQ Holdings and White Group",
-    },
-    {
-      url: "https://beqholdings.com/wp-content/uploads/2023/09/z4703058963228_8ca8b4888ccce9f6411b4ecc7a7d36d9.jpg",
-      alt: "BeQ Holdings Business and Peh Chin Hua",
-      title: "BeQ Holdings Business and Peh Chin Hua",
-    },
-    {
-      url: "https://beqholdings.com/wp-content/uploads/2023/09/z4703058973326_0c316bd2c38075d32af6ab38a43a096f.jpg",
-      alt: "BeQ Holdings Business and Peh Chin Hua",
-      title: "BeQ Holdings Business and Peh Chin Hua",
-    },
-    {
-      url: "https://beqholdings.com/wp-content/uploads/2023/09/z4703058917470_1a20245175129b87965d1ef8b215c643.jpg",
-      alt: "",
-      title: "",
-    },
-    {
-      url: "https://beqholdings.com/wp-content/uploads/2023/09/z4703058917164_dde32aea5fd7106ee31c7ad454d9f60c.jpg",
-      alt: "",
-      title: "",
-    },
-    {
-      url: "https://beqholdings.com/wp-content/uploads/2023/09/z4703058947163_f3dac2cddb7b54f22eea1d4a98f584d4.jpg",
-      alt: "",
-      title: "",
-    },
+    { url: "https://beqholdings.com/wp-content/uploads/2023/04/OJ_001_1600.jpg", alt: "Mrs. Ta Thi My Phuong, CEO of BeQ Holings and Mr. Olivier JACQUOT" },
+    { url: "https://beqholdings.com/wp-content/uploads/2023/04/OJ_002_1600.jpg", alt: "Mr. MAI Huu Minh, Founder BeQ Holdings and Mr. Olivier JACQUOT" },
+    { url: "https://beqholdings.com/wp-content/uploads/2023/04/OJ_003_1600.jpg", alt: "" },
+    { url: "https://beqholdings.com/wp-content/uploads/2023/04/imgpsh_fullsize_anim-1-1.png", alt: "" },
+    { url: "https://beqholdings.com/wp-content/uploads/2023/04/imgpsh_fullsize_anim-2.png", alt: "" },
+    { url: "https://beqholdings.com/wp-content/uploads/2023/04/imgpsh_fullsize_anim-3.png", alt: "" },
   ];
 
   const openDialog = (images: ImageItem[], initialIndex: number, clickedLayoutId: string) => {
@@ -65,17 +41,17 @@ const WhiteGroupGalleryComponent = () => {
   }
 
   return (
-    <section className="container mx-auto px-4 py-8">
+    <section className="py-8">
       <div className="text-center mb-8">
-        <div className="text-lg mb-2">Saturday 22 July, 2023</div>
-        <h3 className="text-4xl font-bold text-[#BF9B30]">
-          The White Group&apos;s meeting with BeQ Holdings business
+        <div className="subtitle text-lg">Wednesday 12 April, 2023</div>
+        <h3 className="title text-4xl font-bold text-[#BF9B30]">
+          MOU signature All Sports Business with BeQ Holdings business
         </h3>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {images.map((image, index) => {
-          const currentLayoutId = `white-group-image-${index}`
+          const currentLayoutId = `mou-signature-image-${index}`
           return (
             <div key={index}>
               <motion.div 
@@ -98,9 +74,11 @@ const WhiteGroupGalleryComponent = () => {
                   </Card>
                 </motion.div>
               </motion.div>
-              <div className="p-4">
-                <h5 className="text-lg font-semibold">{image.title}</h5>
-              </div>
+              {image.alt && (
+                <div className="p-4">
+                  <h5 className="text-sm font-medium">{image.alt}</h5>
+                </div>
+              )}
             </div>
           )
         })}
@@ -118,4 +96,4 @@ const WhiteGroupGalleryComponent = () => {
   );
 };
 
-export default WhiteGroupGalleryComponent;
+export default MOUSignatureComponent; 
