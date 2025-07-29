@@ -10,11 +10,157 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
-import { List, MagnifyingGlass, Plus, X } from "@phosphor-icons/react";
+import { List, ListBulletsIcon, ListIcon, MagnifyingGlass, Plus, X } from "@phosphor-icons/react";
 import Image from "next/image";
+import { Menu } from "lucide-react";
+
+interface MenuItem {
+  name: string;
+  key: string;
+  subItems?: string[];
+}
+
+type SubItemLinks = {
+  [K in string]: string;
+} & {
+  "BeQ Holdings": string;
+  "Team": string;
+  "Projects": string;
+  "Partners": string;
+  "Contact us": string;
+  "Vietnam VNX indexes Family": string;
+  "Indexes and Portfolios free and ready for Research": string;
+  "Vietnam Smart Beta indexes Series": string;
+  "Vietnam Provincial indexes Series": string;
+  "Vietnam and International Women CEO Indexes": string;
+  "Artificial Indexes indexes": string;
+  "Sentiment/Fear & Greed Indexes": string;
+  "BeQ/IFRC Volatility indexes": string;
+  "Crypto Currency Indexes": string;
+  "Currency indexes": string;
+  "Customised indexes": string;
+  "Data center": string;
+  "Research": string;
+  "Investment": string;
+  "Strategies": string;
+  "Education": string;
+  "Society": string;
+  "Web Services": string;
+  "Service": string;
+  "Data Science and Technology Institute (DTSI)": string;
+  "DSTI Professional Data Analyst Certificate": string;
+  "DSTI Professional Data Scientist Certificate": string;
+  "Learning to conduct and publish research in international journals": string;
+  "BeQ Holdings Grand Opening 2025": string;
+  "BeQ Financial Township Competition": string;
+  "Training": string;
+  "Gallery": string;
+  "Video": string;
+  "Newsletter": string;
+  "Brochures": string;
+  "Cloud Computing Platform for Research (CCPR)": string;
+  "Research Project : Vietnam AI Development Index": string;
+  "Research Project : ASEAN Monetary Unit": string;
+  "Research Project : Market High Volatility, Risk or Opportunities": string;
+  "To schedule a direct conversation and introduction between the lender and the company (borrower)": string;
+  "Legal entity name of the borrower": string;
+  "Shareholding structure": string;
+  "Overall information on Group Company and Business activities": string;
+  "Management of the Company (the borrower)": string;
+  "Briefing the big picture strategy for the year, together with growth opportunities and challenges": string;
+  "Financial reports for the last 3 years (English perferable)": string;
+  "Borrower’s expectation for Loan application: Structure, amount, terms & conditions, timings,…": string;
+  "BeQ Financial Township Competition Kicks Off in Ho Chi Minh City": string;
+  "BeQ Holdings successfully organizes Week 2 Financial Township Competition": string;
+  "BeQ Holdings Concludes Week 3 Competition of the 12-Week Journey": string;
+  "BeQ Holdings Celebrates Unique Financial Strategies in Week 4": string;
+};
 
 const Header = () => {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [subMenuOpen, setSubMenuOpen] = React.useState<string | null>(null);
+  const [subSubMenuOpen, setSubSubMenuOpen] = React.useState<string | null>(null);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+  const toggleSubMenu = (item: string) => {
+    setSubMenuOpen(subMenuOpen === item ? null : item);
+  };
+  const toggleSubSubMenu = (item: string) => {
+    setSubSubMenuOpen(subSubMenuOpen === item ? null : item);
+  };
+
+  const menuItems: MenuItem[] = [
+    { name: "Home", key: "home"},
+    { name: "About", key: "about", subItems: ["BeQ Holdings", "Team", "Projects", "Partners", "Contact us"] },
+    { name: "Indexes Family", key: "indexes", subItems: ["Vietnam VNX indexes Family", "Indexes and Portfolios free and ready for Research", "Vietnam Smart Beta indexes Series", "Vietnam Provincial indexes Series", "Vietnam and International Women CEO Indexes", "Artificial Indexes indexes", "Sentiment/Fear & Greed Indexes", "BeQ/IFRC Volatility indexes", "Crypto Currency Indexes", "Currency indexes", "Customised indexes"] },
+    { name: "Big Data", key: "bigdata", subItems: ["Data center", "Research", "Investment", "Strategies", "Education", "Society", "Web Services", "Service"] },
+    { name: "Education", key: "education", subItems: ["Data Science and Technology Institute (DTSI)", "DSTI Professional Data Analyst Certificate", "DSTI Professional Data Scientist Certificate", "Learning to conduct and publish research in international journals"] },
+    { name: "News", key: "news", subItems: ["BeQ Holdings Grand Opening 2025", "BeQ Financial Township Competition"] },
+    { name: "Events", key: "events", subItems: ["Training"] },
+    { name: "Media", key: "media", subItems: ["Gallery", "Video", "Newsletter", "Brochures"] },
+  ];
+
+  const subItemSubItems: { [key: string]: string[] } = {
+    "Research": ["Cloud Computing Platform for Research (CCPR)", "Research Project : Vietnam AI Development Index", "Research Project : ASEAN Monetary Unit", "Research Project : Market High Volatility, Risk or Opportunities"],
+    "Service": ["To schedule a direct conversation and introduction between the lender and the company (borrower)", "Legal entity name of the borrower", "Shareholding structure", "Overall information on Group Company and Business activities", "Management of the Company (the borrower)", "Briefing the big picture strategy for the year, together with growth opportunities and challenges", "Financial reports for the last 3 years (English perferable)", "Borrower’s expectation for Loan application: Structure, amount, terms & conditions, timings,…" ],
+    "BeQ Financial Township Competition": ["BeQ Financial Township Competition Kicks Off in Ho Chi Minh City", "BeQ Holdings successfully organizes Week 2 Financial Township Competition", "BeQ Holdings Concludes Week 3 Competition of the 12-Week Journey", "BeQ Holdings Celebrates Unique Financial Strategies in Week 4"]
+  };
+
+  const subItemLinks: SubItemLinks = {
+    "BeQ Holdings": "https://beqholdings.com/about-us/",
+    "Team": "https://beqholdings.com/team/",
+    "Projects": "https://beqholdings.com/projects/",
+    "Partners": "https://beqholdings.com/partners/",
+    "Contact us": "https://beqholdings.com/about-us/contact-us/",
+    "Vietnam VNX indexes Family": "https://beqholdings.com/beq-ifrc-vietnam-vnx-indexes-family/",
+    "Indexes and Portfolios free and ready for Research": "https://beqholdings.com/beq-ifrc-indexes-and-portfolios-free-and-ready-for-research/",
+    "Vietnam Smart Beta indexes Series": "http://www.beqholdings.com/beq-ifrc-vietnam-smart-beta-indexes/",
+    "Vietnam Provincial indexes Series": "http://www.beqholdings.com/beq-ifrc-vietnam-provincial-indexes/",
+    "Vietnam and International Women CEO Indexes": "#",
+    "Artificial Indexes indexes": "https://beqholdings.com/beq-ifrc-artificial-indexes-indexes/",
+    "Sentiment/Fear & Greed Indexes": "#",
+    "BeQ/IFRC Volatility indexes": "https://beqholdings.com/beq-ifrc-volatility-indexes/",
+    "Crypto Currency Indexes": "https://beqholdings.com/beq-ifrc-crypto-currency-indexes/",
+    "Currency indexes": "https://beqholdings.com/beq-ifrc-currency-indexes/",
+    "Customised indexes": "https://beqholdings.com/beq-ifrc-customised-indexes/",
+    "Data center": "#",
+    "Research": "#",
+    "Investment": "#",
+    "Strategies": "#",
+    "Education": "#",
+    "Society": "#",
+    "Web Services": "#",
+    "Service": "#",
+    "Data Science and Technology Institute (DTSI)": "https://beqholdings.com/data-science-and-technology-institute-dtsi/",
+    "DSTI Professional Data Analyst Certificate": "https://beqholdings.com/dsti-professional-data-analyst-certificate/",
+    "DSTI Professional Data Scientist Certificate": "https://beqholdings.com/dsti-professional-data-scientist-certificate/",
+    "Learning to conduct and publish research in international journals": "https://beqholdings.com/learning-to-conduct-and-publish-research-in-international-journals/",
+    "BeQ Holdings Grand Opening 2025": "https://beqholdings.com/category/beq-holdings-grand-opening-2025/",
+    "BeQ Financial Township Competition": "#",
+    "Training": "https://beqholdings.com/training/",
+    "Gallery": "https://beqholdings.com/gallery/",
+    "Video": "https://beqholdings.com/video/",
+    "Newsletter": "https://beqholdings.com/newsletter/",
+    "Brochures": "https://beqholdings.com/brochures/",
+    "Cloud Computing Platform for Research (CCPR)": "#",
+    "Research Project : Vietnam AI Development Index": "https://beqholdings.com/research-project-vietnam-ai-development-index/",
+    "Research Project : ASEAN Monetary Unit": "https://beqholdings.com/research-project-asean-monetary-unit/",
+    "Research Project : Market High Volatility, Risk or Opportunities": "https://beqholdings.com/research-project-market-high-volatility-risk-or-opportunities/",
+    "To schedule a direct conversation and introduction between the lender and the company (borrower)": "#",
+    "Legal entity name of the borrower": "#",
+    "Shareholding structure": "#",
+    "Overall information on Group Company and Business activities": "#",
+    "Management of the Company (the borrower)": "#",
+    "Briefing the big picture strategy for the year, together with growth opportunities and challenges": "#",
+    "Financial reports for the last 3 years (English perferable)": "#",
+    "Borrower’s expectation for Loan application: Structure, amount, terms & conditions, timings,…": "#",
+    "BeQ Financial Township Competition Kicks Off in Ho Chi Minh City": "https://beqholdings.com/beq-financial-township-competition-kicks-off-in-ho-chi-minh-city/",
+    "BeQ Holdings successfully organizes Week 2 Financial Township Competition": "https://beqholdings.com/beq-holdings-successfully-organizes-week-2-competition-searching-for-strategies-to-expand-the-international-financial-market/",
+    "BeQ Holdings Concludes Week 3 Competition of the 12-Week Journey": "https://beqholdings.com/beq-holdings-concludes-week-3-competition-of-the-12-week-journey/",
+    "BeQ Holdings Celebrates Unique Financial Strategies in Week 4": "https://beqholdings.com/beq-holdings-celebrates-unique-financial-strategies-in-week-4/",
+  };
 
   return (
     <header
@@ -22,13 +168,13 @@ const Header = () => {
       className="header header-3 header-dynamic-typo extended-menu z-50 w-full"
       data-fixed-initial-offset="150"
     >
-      <div className="header-wrap flex px-7 items-center">
+      <div className="header-wrap flex px-7 items-center max-md:hidden">
         <div className="">
-          <Image 
-          src="https://res.cloudinary.com/dyavs1cdn/image/upload/v1753781965/BEQ-HOLDINGS-logo-dark_t8yxls.webp"
-          alt=""
-          width={75}
-          height={70}
+          <Image
+            src="https://res.cloudinary.com/dyavs1cdn/image/upload/v1753781965/BEQ-HOLDINGS-logo-dark_t8yxls.webp"
+            alt=""
+            width={75}
+            height={70}
           ></Image>
         </div>
         <div className="header-wrap-inner mx-auto">
@@ -432,6 +578,90 @@ const Header = () => {
           </div>
         </div>
       </div>
+      <div className="header-wrap flex px-5 items-center md:hidden">
+        <div className="flex items-center gap-[9px]">
+          <Button
+            variant="ghost"
+            aria-controls="site-navigation"
+            aria-expanded={isMenuOpen}
+            className="bg-[#1c1b1d] w-15 h-15 rounded-full"
+            onClick={toggleMenu}>
+            <Menu width={40} className="!w-[28px] !h-[28px]" />
+          </Button>
+          <Image
+            src="https://res.cloudinary.com/dyavs1cdn/image/upload/v1753781965/BEQ-HOLDINGS-logo-dark_t8yxls.webp"
+            alt=""
+            width={75}
+            height={70}
+          ></Image>
+        </div>
+        {isMenuOpen && (
+          <div
+            id="site-navigation"
+            className={`fixed top-0 left-0 h-screen bg-[#111111] text-white px-5 py-24 z-50 transition-transform duration-300 ${isMenuOpen ? "translate-x-0" : "-translate-x-full"} overflow-y-auto`}
+            style={{ width: "85%" }}
+          >
+            <ul className="space-y-4">
+              {menuItems.map((item: MenuItem) => (
+                <li key={item.key} className="flex flex-col">
+                  <div className="flex justify-between items-center">
+                    <span>{item.name}</span>
+                    {item.subItems && (
+                      <button
+                        onClick={() => toggleSubMenu(item.key)}
+                        className={`focus:outline-none transition-transform duration-300 ${subMenuOpen === item.key ? "rotate-45 text-white text-xl" : "text-gray-400 texl-xl"
+                          }`}
+                      >
+                        +
+                      </button>
+                    )}
+                  </div>
+                  {subMenuOpen === item.key && item.subItems && (
+                    <ul className="mt-2 space-y-3">
+                      {item.subItems.map((subItem, index) => (
+                        <li key={index} className="text-white ml-4 flex flex-col">
+                          <div className="flex justify-between items-center">
+                            <a
+                              href={subItemLinks[subItem] || "#"}
+                              className="text-white hover:underline"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              {subItem}
+                            </a>
+                            {subItemSubItems[subItem] && (
+                              <button
+                                onClick={() => toggleSubSubMenu(`${item.key}-${index}`)}
+                                className={`focus:outline-none transition-transform duration-300 ${subSubMenuOpen === `${item.key}-${index}` ? "rotate-45 text-white text-xl" : "text-gray-400 text-xl"
+                                  }`}
+                              >
+                                +
+                              </button>
+                            )}
+                          </div>
+                          {subSubMenuOpen === `${item.key}-${index}` && subItemSubItems[subItem] && (
+                            <ul className="mt-2 space-y-2 ml-4">
+                              {subItemSubItems[subItem].map((subSubItem, subIndex) => (
+                                <li key={subIndex} className="text-white">
+                                  <a href={subItemLinks[subSubItem] || "#"} className="text-white hover:underline">{subSubItem}</a>
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              ))}
+            </ul>
+            <p className=" text-sm mt-4">
+              © 2016-2023 <span className="text-[#bf9b30]">BeQ Holdings</span>. All rights reserved
+            </p>
+          </div>
+        )}
+      </div>
+      
     </header>
   );
 };
