@@ -1,5 +1,7 @@
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 const HomeSection10 = () => {
+    const {t} = useTranslation()
     return (
         <section className="w-full mx-auto flex flex-col items-center justify-between py-8 md:py-16 ">
             <div className="flex flex-col lg:flex-row-reverse justify-end items-center w-full">
@@ -16,15 +18,15 @@ const HomeSection10 = () => {
                     <div className="w-full lg:w-[90%]">
                         <div className="flex flex-col gap-2">
                             <h6 className="text-[.9rem] font-thin capitalize">
-                                OUR ADVANTAGES
+                                {t('section10_tag')}
                             </h6>
                             <h4 className="md:text-[3.25rem] text-[calc(2.35rem + 0.9 * ((100vw - 576px) / 864))] font-bold mb-2"
                                 style={{ lineHeight: '1.05' }}>
-                                Long-Term Cooperation
+                                {t('section10_title')}
                             </h4>
                         </div>
                         <p className=" text-[1.025rem] font-bold text-[#82838A] mb-4 w-[80%]">
-                            BeQ Holdings has inherited the achievement of calculating 22,889 indexes (Vietnam and International) from IFRC – essential for investors who want to make informed decisions about their investment portfolio.
+                        {t('section10_des')}
                         </p>
                     </div>
                 </div>

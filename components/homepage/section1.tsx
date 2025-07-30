@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 
 const HomeSection1 = () => {
@@ -22,6 +23,7 @@ export default HomeSection1;
 const AnimatedText = () => {
     const [inView, setInView] = useState(false);
     const ref = useRef<HTMLDivElement>(null);
+    const {t} = useTranslation()
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -54,7 +56,7 @@ const AnimatedText = () => {
             }}
             className="w-[90%] md:w-[675px] md:pl-4 text-left text-5xl lg:text-6xl font-bold z-10 absolute right-0  md:right-[20px] translate-y-[-50%] top-[50%] text-white"
         >
-            Data & Technology at the service of Society, Environment, Education, Research and Finance
+            {t('introduction')}
         </div>
     );
 };

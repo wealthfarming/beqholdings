@@ -1,12 +1,82 @@
 {
     "en": "English",
-    "vi": "Vietnamesisch",
-    "fr": "Französisch",
-    "de": "Deutsch",
+    "vi": "Vietnamese",
+    "fr": "French",
+    "de": "German",
+
     "recent_posts": "Recent Posts",
     "read_more": "Read more",
     "sign_up": "Sign Up",
     "sign_up_for": "Sign up for the newsletter",
     "work_inquiries": "Work inquiries",
-    "work_with_us": "Interested in working with us?"
+    "work_with_us": "Interested in working with us?",
+
+    "introduction": "Data & Technology at the service of Society, Environment, Education, Research and Finance",
+
+    "section2_tag": "INDEXES DASHBOARD",
+    "section2_title_1": "Screener of",
+    "section2_title_2": "Best Performers",
+    "section2_description": "Empower your portfolio. Let data-driven insights guide your journey to investment success.  Uncover alpha opportunities with cutting-edge tools and curated indexes.",
+    "section2_button": "Dashboard CCPI",
+
+    "section3_tag": "VISION",
+    "section3_main_title": "Global Top 3 leading brand in big data analytics, technology consulting and investment strategy",
+    "section3_tag_2": "OUR MISSION",
+    "section3_article_1_title": "Unlock value and empower your business",
+    "section3_article_1_des":"Through constant innovation, a commitment to excellence and By a data-driven revolution utilizing advanced Business Intelligence and analytics solutions.",
+    "section3_article_2_title": "Towards a better, more connected, and prosperous world",
+    "section3_article_2_des": "We are leading the technology revolution, creating a seamless connected future and driving excellence in every field from finance and business to social responsibility.",
+    "section3_article_3_title": "Core values",
+    "section3_article_3_sub_title_1": "UNLOCKING POTENTIAL",
+    "section3_article_3_sub_title_2": "BIG DATA, TECHNOLOGY AND HUMAN RESOURCES",
+    "section3_article_3_des_1": "Research financial markets, strategies and investments. Investment consulting, capital connection, strategy consulting and IPO roadmap.",
+    "section3_article_3_des_2": "Technology, Platforms, Apps, Web Services, BlockChain NFT, Artificial Intelligence AI.",
+    "section3_article_3_des_3": "Big Data, Data Science, Data Analytics, Business Intelligence.",
+    "section3_article_3_des_4": "Education, research and coaching, hands-on training. Media, society and public relations.",
+
+    "section4_tag_1": "CAPABILITIES",
+    "section4_title_1": "Servies solutions",
+    "section4_description_1": "Big Data, Data Science, Data Analytics, Business Intelligence, Blockchain NFT",
+    "section4_button_1": "View Services",
+    "section4_tag_2": "SHOWCASE",
+    "section4_title_2": "Our most recent digital and strategy projects",
+    "section4_button_2": "View Showcase",
+
+    "section5_title": "Big Data",
+    "section5_description": "BeQ Holdings with over 40 years of experience understands big data, data science, data analytics, financial markets and business intelligence to help you make informed investment decisions.",
+
+    "section7_yoe":"Year of experience",
+    "section7_index": "Indexes (Viet Nam and International)",
+    "section7_tag": "CAPABILITIES",
+    "section7_title_1": "Unleash your data power with BeQ Holdings' advanced Business Intelligence (BI) and analytics solutions",
+    "section7_des_1":"Understands big data, data science, data analytics, financial markets and business intelligence to help you make informed investment decisions.",
+    "section7_title_2": "The indexing industry has come a long way over the past 100 years. BeQ Holdings' offers are “smart”, sophisticated and innovative to respond to the very changing conditions of the market and the requirements of investors",
+    "section7_des_2": "From Benchmark, BlueChips, Sector, Strategies, Thematic Indexes to Volatility, Sentiment, Fear & Greed Indexes.",
+
+    "section8_title": "Our Group",
+
+    "section9_tag": "OUR ADVANTAGES",
+    "section9_title": "We help our customers to achieve mutual goals",
+    "section9_des_1": "Extensive experience and expertise in financial markets and investment strategies, capital and smart business models have made BeQ Holdings the trusted partner for organizations and individuals looking to maximize profits while minimizing risks in a volatile and challenging context.",
+    "section9_des_2": "BeQ Holdings with over 40 years of experience understands big data, data science, data analytics, financial markets and business intelligence to help you make informed investment decisions",
+    "section9_des_3": "BeQ Holdings has built a reputation as a trusted advisor to investment funds, financial institutions, angel investors, venture capital funds, investment banks, and individual investors , businesses as well as researchers globally.",
+    "section9_des_4": "Our experts of experts understand that data is valuable only when correctly analyzed and interpreted, and with the tools and expertise we help our clients make sense of their data and transform it that data into useful insights, into valuable assets.",
+
+    "section10_tag" : "OUR ADVANTAGES",
+    "section10_title": "Long-Term Cooperation",
+    "section10_des": "BeQ Holdings has inherited the achievement of calculating 22,889 indexes (Vietnam and International) from IFRC – essential for investors who want to make informed decisions about their investment portfolio.",
+
+    "section11_title": "Get in touch",
+    "section11_addr": "67 Dinh Thi Thi Street, Van Phuc City,Thu Duc District, Ho Chi Minh City",
+    "section11_country": "VIETNAM",
+    "section11_phone": "Phone:  84.986.245.133",
+    "section11_email": "Email: contact@beqholdings.com",
+
+    "section12_title": "We are driving the future and shaping the world of tomorrow",
+    "section12_des_b_1": "BeQ Holdings",
+    "section12_des_b_2" : "technology seamlessly connects",
+    "section12_des_b_3" : "empowers",
+    "section12_des_b_4" : "reach their full potential.",
+    "section12_des": "creates a future where <strong>technology seamlessly connects</strong> and <strong>empowers</strong> individuals and organizations to <strong>reach their full potential.",
+    "section12_button": "See Open Positions"
 }

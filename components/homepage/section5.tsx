@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Progress } from "../ui/progress";
 import { useEffect } from "react";
 import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 
 const project = [
     {
@@ -36,6 +37,7 @@ const toppic = [
     "Society",
 ]
 const HomeSection5 = () => {
+    const { t } = useTranslation()
     return (
         <section className="w-full mx-auto flex flex-col items-center justify-between py-8 md:py-16">
             <div className="flex flex-col md:flex-row w-7/8 md:w-6/8 mx-auto gap-16">
@@ -45,10 +47,10 @@ const HomeSection5 = () => {
                             lineHeight: '3.5rem',
                         }}
                     >
-                        Big Data
+                        {t('section5_title')}
                     </h2>
                     <h6 className="text-[1.025rem] font-bold text-[#82838A] text-start mb-4">
-                        BeQ Holdings with over 40 years of experience understands big data, data science, data analytics, financial markets and business intelligence to help you make informed investment decisions.
+                        {t('section5_description')}
                     </h6>
                     <div className="flex flex-col items-start justify-center w-[85%]     gap-4">
                         {project.map((item, index) => (

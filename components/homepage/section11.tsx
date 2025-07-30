@@ -1,7 +1,9 @@
 import { ChatsIcon } from "@phosphor-icons/react";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 const HomeSection11 = () => {
+    const { t } = useTranslation()
     return (
         <section className="w-full mx-auto flex flex-col items-center justify-between py-8 md:py-8">
             <div className="h-[30vh] md:h-[550px] w-full overflow-hidden relative">
@@ -26,21 +28,20 @@ const HomeSection11 = () => {
                         </p>
                         <h4 className="md:text-[1.25rem] text-[calc(1.25rem + 0 * ((100vw - 576px) / 864))] font-bold mb-2"
                             style={{ lineHeight: '1.05' }}>
-                            Get in touch
+                            {t('section11_title')}
                         </h4>
                     </div>
                     <div className="flex flex-col gap-2">
                         <span className="text-[1.025rem] font-thin mb-4 w-full">
                             <p >
-                                67 Dinh Thi Thi Street, Van Phuc City,Thu Duc District, Ho Chi Minh City
-                            </p>
-                            <strong>VIETNAM</strong>
+                                {t('section11_addr')}                            </p>
+                            <strong>{t('section11_country')}</strong>
                         </span>
                         <span className="text-[1.025rem] font-thin mb-4 w-full">
-                            Phone:  84.986.245.133
+                            {t('section11_phone')}
                         </span>
                         <span className="text-[1.025rem] font-thin mb-4 w-full">
-                            Email: contact@beqholdings.com
+                            {t('section11_email')}
                         </span>
                     </div>
                 </div>
