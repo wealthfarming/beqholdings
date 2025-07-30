@@ -13,6 +13,7 @@ import {
 import { ChevronLeft } from "lucide-react";
 import Footer from "@/components/footer";
 import PageHeader from "@/components/header";
+import LanguageChange from "@/components/language-button";
 
 export default function AboutUs() {
   const { t } = useTranslation();
@@ -72,7 +73,7 @@ export default function AboutUs() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="w-full flex relative h-[25vh] md:h-[40vh] mt-5">
+        <div className="w-full flex relative mt-5">
           <div className="w-full flex flex-col items-center justify-center absolute top-0 z-20">
             <PageHeader />
           </div>
@@ -400,6 +401,7 @@ export default function AboutUs() {
         </div>
       </div>
       <Footer />
+      <LanguageChange />
     </div>
   );
 }

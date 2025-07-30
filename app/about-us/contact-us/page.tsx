@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import LanguageChange from "@/components/language-button";
 
 export default function Contact() {
     const { t } = useTranslation();
@@ -200,6 +201,7 @@ export default function Contact() {
                     </div>
                 </div>
                 <Footer />
+                <LanguageChange />
             </div>
         </div>
     );
