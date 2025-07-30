@@ -1,6 +1,7 @@
 // components/homepage/news.tsx
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslation } from 'react-i18next';
 
 const recentPosts = [
   {
@@ -78,10 +79,11 @@ const recentPosts = [
 ];
 
 const NewsSections = () => {
+  const {t} = useTranslation()
   return (
     <section className="py-16 bg-black text-white w-full">
       <div className="container max-w-screen-xl mx-auto px-4">
-        <h2 className="text-5xl font-bold mb-12">Recent News</h2>
+        <h2 className="text-5xl font-bold mb-12">{t('recent_news')}</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {recentPosts.map((post) => (
             <div key={post.id} className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">

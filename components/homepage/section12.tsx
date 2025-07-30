@@ -18,7 +18,7 @@ const HomeSection12 = () => {
                             lineHeight: '1.65rem',
                         }}
                     >
-                        <strong>{t('section12_des_b_1')}</strong> creates a future where <strong>{t('section12_des_b_2')}</strong> and <strong>{t('section12_des_b_3')}</strong> individuals and organizations to <strong>{t('section12_des_b_4')}</strong>
+                        <strong>{t('section12_des_b_1')}</strong> {t('section12_des_1')} <strong>{t('section12_des_b_2')}</strong> {t('section12_des_2')} <strong>{t('section12_des_b_3')}</strong> {t('section12_des_3')} <strong>{t('section12_des_b_4')}</strong>
                     </p>
                     <Button className="group w-[200px] h-[40px] rounded-[4px] mt-4 bg-[#BF9B30] text-white hover:bg-[#a87c1f]">
                         <a href="https://dashboardlive.ccpi.vn" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 p-4">

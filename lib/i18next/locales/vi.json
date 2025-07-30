@@ -9,5 +9,77 @@
     "sign_up": "Đăng ký",
     "sign_up_for": "Đăng ký nhận bản tin",
     "work_inquiries": "Yêu cầu công việc",
-    "work_with_us": "Bạn có muốn làm việc với chúng tôi không?"
+    "work_with_us": "Bạn có muốn làm việc với chúng tôi không?",
+    "recent_news": "Tin tức gần đây",
+
+    "introduction": "Dữ liệu & Công nghệ phục vụ Xã hội, Môi trường, Giáo dục, Nghiên cứu và Tài chính",
+    
+    "section2_tag": "BẢNG CHỈ SỐ",
+    "section2_title_1": "Bộ lọc của",
+    "section2_title_2": "Những người biểu diễn tốt nhất",
+    "section2_description": "Tăng cường danh mục đầu tư của bạn. Hãy để những hiểu biết dựa trên dữ liệu dẫn dắt hành trình của bạn đến thành công đầu tư. Khám phá cơ hội alpha với các công cụ tiên tiến và chỉ số được chọn lọc.",
+    "section2_button": "Bảng điều khiển CCPI",
+    
+    "section3_tag": "TẦM NHÌN",
+    "section3_main_title": "Thương hiệu hàng đầu toàn cầu trong top 3 về phân tích dữ liệu lớn, tư vấn công nghệ và chiến lược đầu tư",
+    "section3_tag_2": "SỨ MỆNH CỦA CHÚNG TÔI",
+    "section3_article_1_title": "Mở khóa giá trị và trao quyền cho doanh nghiệp của bạn",
+    "section3_article_1_des": "Thông qua sự đổi mới không ngừng, cam kết xuất sắc và bằng cuộc cách mạng dựa trên dữ liệu sử dụng các giải pháp phân tích và trí tuệ kinh doanh tiên tiến.",
+    "section3_article_2_title": "Hướng tới một thế giới tốt đẹp hơn, kết nối hơn và thịnh vượng hơn",
+    "section3_article_2_des": "Chúng tôi đang dẫn đầu cuộc cách mạng công nghệ, tạo ra một tương lai kết nối liền mạch và thúc đẩy sự xuất sắc trong mọi lĩnh vực từ tài chính, kinh doanh đến trách nhiệm xã hội.",
+    "section3_article_3_title": "Giá trị cốt lõi",
+    "section3_article_3_sub_title_1": "MỞ KHÓA TIỀM NĂNG",
+    "section3_article_3_sub_title_2": "DỮ LIỆU LỚN, CÔNG NGHỆ VÀ NGUỒN NHÂN LỰC",
+    "section3_article_3_des_1": "Nghiên cứu thị trường tài chính, chiến lược và đầu tư. Tư vấn đầu tư, kết nối vốn, tư vấn chiến lược và lộ trình IPO.",
+    "section3_article_3_des_2": "Công nghệ, Nền tảng, Ứng dụng, Dịch vụ Web, Blockchain NFT, Trí tuệ nhân tạo AI.",
+    "section3_article_3_des_3": "Dữ liệu lớn, Khoa học dữ liệu, Phân tích dữ liệu, Trí tuệ kinh doanh.",
+    "section3_article_3_des_4": "Giáo dục, nghiên cứu và huấn luyện, đào tạo thực hành. Truyền thông, xã hội và quan hệ công chúng.",
+    
+    "section4_tag_1": "NĂNG LỰC",
+    "section4_title_1": "Giải pháp dịch vụ",
+    "section4_description_1": "Dữ liệu lớn, Khoa học dữ liệu, Phân tích dữ liệu, Trí tuệ kinh doanh, Blockchain NFT",
+    "section4_button_1": "Xem Dịch vụ",
+    "section4_tag_2": "TRƯNG BÀY",
+    "section4_title_2": "Các dự án chiến lược và kỹ thuật số gần đây nhất của chúng tôi",
+    "section4_button_2": "Xem Trưng bày",
+    
+    "section5_title": "Dữ liệu lớn",
+    "section5_description": "BeQ Holdings với hơn 40 năm kinh nghiệm hiểu biết về dữ liệu lớn, khoa học dữ liệu, phân tích dữ liệu, thị trường tài chính và trí tuệ kinh doanh để giúp bạn đưa ra quyết định đầu tư sáng suốt.",
+    
+    "section7_yoe": "Năm kinh nghiệm",
+    "section7_index": "Chỉ số (Việt Nam và Quốc tế)",
+    "section7_tag": "NĂNG LỰC",
+    "section7_title_1": "Giải phóng sức mạnh dữ liệu của bạn với các giải pháp trí tuệ kinh doanh (BI) và phân tích tiên tiến của BeQ Holdings",
+    "section7_des_1": "Hiểu biết về dữ liệu lớn, khoa học dữ liệu, phân tích dữ liệu, thị trường tài chính và trí tuệ kinh doanh để giúp bạn đưa ra quyết định đầu tư sáng suốt.",
+    "section7_title_2": "Ngành công nghiệp chỉ số đã tiến một chặng đường dài trong 100 năm qua. Các sản phẩm của BeQ Holdings 'thông minh', tinh vi và sáng tạo để đáp ứng các điều kiện thay đổi liên tục của thị trường và yêu cầu của nhà đầu tư",
+    "section7_des_2": "Từ Chỉ số chuẩn, BlueChips, Ngành, Chiến lược, Chỉ số chủ đề đến Chỉ số biến động, Tâm lý, Sợ hãi & Tham lam.",
+    
+    "section8_title": "Tập đoàn của chúng tôi",
+    
+    "section9_tag": "LỢI THẾ CỦA CHÚNG TÔI",
+    "section9_title": "Chúng tôi giúp khách hàng đạt được mục tiêu chung",
+    "section9_des_1": "Kinh nghiệm sâu rộng và chuyên môn trong thị trường tài chính và chiến lược đầu tư, vốn và mô hình kinh doanh thông minh đã khiến BeQ Holdings trở thành đối tác đáng tin cậy cho các tổ chức và cá nhân muốn tối đa hóa lợi nhuận trong khi giảm thiểu rủi ro trong bối cảnh biến động và thách thức.",
+    "section9_des_2": "BeQ Holdings với hơn 40 năm kinh nghiệm hiểu biết về dữ liệu lớn, khoa học dữ liệu, phân tích dữ liệu, thị trường tài chính và trí tuệ kinh doanh để giúp bạn đưa ra quyết định đầu tư sáng suốt.",
+    "section9_des_3": "BeQ Holdings đã xây dựng danh tiếng là cố vấn đáng tin cậy cho các quỹ đầu tư, tổ chức tài chính, nhà đầu tư thiên thần, quỹ đầu tư mạo hiểm, ngân hàng đầu tư, nhà đầu tư cá nhân, doanh nghiệp cũng như các nhà nghiên cứu trên toàn cầu.",
+    "section9_des_4": "Các chuyên gia của chúng tôi hiểu rằng dữ liệu chỉ có giá trị khi được phân tích và diễn giải chính xác, và với các công cụ và chuyên môn, chúng tôi giúp khách hàng hiểu rõ dữ liệu của họ và biến dữ liệu đó thành những hiểu biết hữu ích, thành tài sản giá trị.",
+    
+    "section10_tag": "LỢI THẾ CỦA CHÚNG TÔI",
+    "section10_title": "Hợp tác lâu dài",
+    "section10_des": "BeQ Holdings đã kế thừa thành tựu tính toán 22,889 chỉ số (Việt Nam và Quốc tế) từ IFRC – điều cần thiết cho các nhà đầu tư muốn đưa ra quyết định sáng suốt về danh mục đầu tư của họ.",
+    
+    "section11_title": "Liên hệ với chúng tôi",
+    "section11_addr": "67 Đường Đinh Thị Thi, Thành phố Văn Phúc, Quận Thủ Đức, Thành phố Hồ Chí Minh",
+    "section11_country": "VIỆT NAM",
+    "section11_phone": "Điện thoại: 84.986.245.133",
+    "section11_email": "Email: contact@beqholdings.com",
+    
+    "section12_title": "Chúng tôi đang định hình tương lai và tạo ra thế giới của ngày mai",
+    "section12_des_b_1": "BeQ Holdings",
+    "section12_des_1": "tạo ra một tương lai nơi",
+    "section12_des_b_2": "công nghệ kết nối liền mạch",
+    "section12_des_2": "và",
+    "section12_des_b_3": "trao quyền",
+    "section12_des_3": "cho các cá nhân và tổ chức",
+    "section12_des_b_4": "phát huy toàn bộ tiềm năng.",
+    "section12_button": "Xem các vị trí tuyển dụng"
 }

@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import {
   Carousel,
   CarouselContent,
@@ -14,6 +15,7 @@ import Footer from "@/components/footer";
 import PageHeader from "@/components/header";
 
 export default function AboutUs() {
+  const { t } = useTranslation();
   const baseImages = [
     "https://res.cloudinary.com/dyavs1cdn/image/upload/v1752488584/oh__img91_tmyo1e.jpg",
     "https://res.cloudinary.com/dyavs1cdn/image/upload/v1752488583/oh__img89_uek0ru.jpg",
@@ -71,26 +73,26 @@ export default function AboutUs() {
         }}
       >
         <div className="w-full flex relative h-[25vh] md:h-[40vh] mt-5">
-                <div className="w-full flex flex-col items-center justify-center absolute top-0 z-20">
-                    <PageHeader />
-                </div>
-            </div>
+          <div className="w-full flex flex-col items-center justify-center absolute top-0 z-20">
+            <PageHeader />
+          </div>
+        </div>
         <div className="flex mt-[125px]">
           <div className="ml-6 max-md:hidden relative group">
             <ChevronLeft width={56} className="hover:cursor-pointer" />
             <span className="absolute left-18 top-2.5 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 group-hover:-translate-x-1/2 transition-all duration-500 text-white px-2 py-1 rounded text-lg">
-              Back
+              {t("about_back")}
             </span>
           </div>
           <div className="md:mx-10 md:px-5 md:py-16 max-md:mx-5 max-md:py-12">
-            <div className="text-[72px] max-md:text-[48px] font-bold">About us</div>
+            <div className="text-[72px] max-md:text-[48px] font-bold">{t("about_us_title")}</div>
             <div className="text-white opacity-75 text-[17px]">
-              WEALTH FARMING
+              {t("about_header_wealth_farming")}
               <br />
-              VIETNAM UNICORNS
+              {t("about_header_vietnam_unicorns")}
             </div>
             <div className="bg-[#BF9B30] px-3 py-1 text-base font-bold mt-5 rounded size-max">
-              Contact Us
+              {t("about_header_contact_us")}
             </div>
           </div>
         </div>
@@ -102,134 +104,122 @@ export default function AboutUs() {
             <div className="flex max-md:flex-col">
               <div className="md:max-w-[538px] px-5 md:mr-[112px]">
                 <div className="text-[15px] text-white opacity-75 tracking-[-0.72px]">
-                  CAPABILITIES
+                  {t("about_capabilities_tag")}
                 </div>
                 <div className="border-t border-white opacity-25 md:my-4 max-md:mt-5"></div>
                 <div className="md:text-[52px] max-md:text-[37.6px] font-bold mb-4">
-                  BeQ Holdings
+                  {t("about_beq_holdings_title")}
                 </div>
                 <div className="text-[28px] max-md:text-[24px] font-bold md:mt-[60px] max-md:my-[40px]">
-                  Supply excellent solution services, reliable companion for all
-                  businesses.
+                  {t("about_beq_holdings_description")}
                 </div>
               </div>
               <div className="md:max-w-[325px] px-5">
                 <div className="text-[15px] text-white opacity-75 max-md:mb-4 tracking-[-0.72px]">
-                  TECHNOLOGY
+                  {t("about_technology_tag")}
                 </div>
                 <div className="border-t border-white opacity-25 md:my-4 md:w-[285px] max-md:mb-2"></div>
                 <div className="md:text-[28px] max-md:text-[24px] font-bold pb-[15px] mb-4">
-                  Data Science & Technology Institute
+                  {t("about_data_science_title")}
                 </div>
                 <ul className="list-none text-lg">
                   <li className="text-base text-[#BF9B30] font-[900] tracking-[-0.32px]">
-                    <a href="">Cloud Computing Platform for Research (CCPR)</a>
+                    <a href="">{t("about_ccpr_link")}</a>
                   </li>
                   <li className="mb-4 mt-3 text-base text-white opacity-75">
-                    One single access for everything you need to do research
+                    {t("about_ccpr_description")}
                   </li>
                   <li className="text-base text-[#BF9B30] font-[900] tracking-[-0.32px]">
-                    Cloud Computing Platform for Investment (CCPI)
+                    {t("about_ccpi_link")}
                   </li>
                   <li className="mb-4 mt-3 text-base text-white opacity-75">
-                    For investment companies
+                    {t("about_ccpi_description")}
                   </li>
                   <li className="text-base text-[#BF9B30] font-[900] tracking-[-0.32px]">
-                    Cloud Computing Platform for Strategies (CCPS)
+                    {t("about_ccps_link")}
                   </li>
                   <li className="mb-4 mt-3 text-base text-white opacity-75">
-                    For retail investors
+                    {t("about_ccps_description")}
                   </li>
                   <li className="text-base text-[#BF9B30] font-[900] tracking-[-0.32px]">
-                    Data Science and Technology Institute (DSTI)
+                    {t("about_dsti_link")}
                   </li>
                   <li className="mb-[100px] mt-3 text-base text-white opacity-75">
-                    Online/Offline, in Office, in Universities, in house
+                    {t("about_dsti_description")}
                   </li>
                 </ul>
                 <div className="text-[15px] text-white opacity-75 tracking-[-0.72px]">
-                  FINANCIAL
+                  {t("about_financial_tag")}
                 </div>
                 <div className="border-t border-white opacity-25 my-4 md:w-[285px] max-md:mt-4 max-md:mb-2"></div>
                 <div className="text-[28px] max-md:text-[24px] font-bold pb-[15px] mb-[40px] tracking-[-0.84px]">
-                  Capital Farm, Financial Research & Investment
+                  {t("about_capital_farm_title")}
                 </div>
                 <ul className="list-none text-lg">
                   <li className="mb-4 mt-3 text-base text-white opacity-75">
-                    Analyze financial markets, strategies and investments.
+                    {t("about_financial_description_1")}
                   </li>
                   <li className="mb-4 mt-3 text-base text-white opacity-75">
-                    Investment consulting, capital connection, strategy
-                    consulting and IPO roadmap.
+                    {t("about_financial_description_2")}
                   </li>
                   <li className="md:mb-4 mt-3 text-base text-white opacity-75">
-                    Capital connection
+                    {t("about_financial_description_3")}
                   </li>
                 </ul>
               </div>
               <div className="md:w-[325px] px-5">
                 <div className="text-[15px] text-white opacity-75 max-md:mb-4 tracking-[-0.72px]">
-                  MEDIA SOLUTIONS
+                  {t("about_media_solutions_tag")}
                 </div>
                 <div className="border-t border-white opacity-25 md:my-4 md:w-[285px] max-md:mb-2"></div>
                 <div className="text-[28px] font-bold md:mb-4 max-md:mb-10 max-md:text-[24px] tracking-[-0.84px]">
-                  Global Media
+                  {t("about_global_media_title")}
                 </div>
                 <ul className="list-none text-lg">
                   <li className="text-base text-[#BF9B30] font-[900]">
-                    Social Media Marketing
+                    {t("about_social_media_marketing")}
                   </li>
                   <li className="mb-4 mt-3 text-base text-white opacity-75">
-                    Offer powerful marketing tools to target specific
-                    audiences, track the success of business campaigns to
-                    promote brand and product.
+                    {t("about_social_media_description")}
                   </li>
                   <li className="text-base text-[#BF9B30] font-[900]">
-                    Video Production
+                    {t("about_video_production")}
                   </li>
                   <li className="mb-4 mt-3 text-base text-white opacity-75">
-                    Producing high-quality videos that showcase your brand or
-                    product, use them on business website and social media
-                    platforms.
+                    {t("about_video_production_description")}
                   </li>
                   <li className="text-base text-[#BF9B30] font-[900]">
-                    Content Marketing
+                    {t("about_content_marketing")}
                   </li>
                   <li className="mb-4 mt-3 text-base text-white opacity-75">
-                    Creating high-quality content that provides value to your
-                    target audience can help you attract new customers and
-                    build brand loyalty.
+                    {t("about_content_marketing_description")}
                   </li>
                   <li className="text-base text-[#BF9B30] font-[900]">
-                    Public Relations
+                    {t("about_public_relations")}
                   </li>
                   <li className="mb-4 mt-3 text-base text-white opacity-75">
-                    Building relationships with journalists and media outlets
-                    to gain exposure for your brand or product.
+                    {t("about_public_relations_description")}
                   </li>
                   <li className="text-base text-[#BF9B30] font-[900]">
-                    Search Engine Optimization (SEO):
+                    {t("about_seo")}
                   </li>
                   <li className="mb-[100px] mt-3 text-base text-white opacity-75">
-                    Conducting keyword research and incorporating relevant
-                    keywords to attract more traffic to business site.
+                    {t("about_seo_description")}
                   </li>
                 </ul>
                 <div className="text-[15px] text-white opacity-75">
-                  UNLOCKING POTENTIAL
+                  {t("about_unlocking_potential_tag")}
                 </div>
                 <div className="border-t border-white opacity-25 my-4 md:w-[285px] max-md:mt-4 max-md:mb-2"></div>
                 <div className="text-[28px] font-bold md:mb-4 max-md:mb-10 max-md:text-[24px] tracking-[-0.84px]">
-                  Human Resources
+                  {t("about_human_resources_title")}
                 </div>
                 <ul className="list-none text-lg">
                   <li className="mb-4 mt-3 text-base text-white opacity-75">
-                    Education, coaching, hands-on training, society and public
-                    human relations.
+                    {t("about_human_resources_description_1")}
                   </li>
                   <li className="mb-4 mt-3 text-base text-white opacity-75">
-                    Training, compensation, benefits, employee relations,
-                    performance management.
+                    {t("about_human_resources_description_2")}
                   </li>
                 </ul>
               </div>
@@ -237,12 +227,12 @@ export default function AboutUs() {
           </div>
         </div>
 
-        {/* Carousel cho desktop */}
+        {/* Carousel for desktop */}
         <div className="relative h-[587px] mt-[70px] overflow-hidden max-md:hidden">
           <Carousel
             opts={{
               loop: true,
-              align: 'center',
+              align: "center",
               slidesToScroll: 1,
               dragFree: true,
             }}
@@ -266,7 +256,7 @@ export default function AboutUs() {
           </Carousel>
         </div>
 
-        {/* Carousel cho mobile */}
+        {/* Carousel for mobile */}
         <div className="relative w-full h-[222px] mt-[70px] overflow-hidden md:hidden">
           <Carousel
             opts={{
@@ -302,12 +292,9 @@ export default function AboutUs() {
             />
           </div>
           <div className="flex flex-col px-5 gap-10 max-w-[430px]">
-            <div className="text-[52px] font-bold mb-4 max-md:text-[37px]">Our Vision</div>
+            <div className="text-[52px] font-bold mb-4 max-md:text-[37px]">{t("about_vision_title")}</div>
             <div className="mb-4 mt-3 text-base text-white opacity-75">
-              The global Top 3 leader in smart index design with a diverse
-              ecosystem of activities in the fields of finance, Big Data, Data
-              Science, Technology, AI , Blockchain NFT, Education, Research,
-              Practical Coaching.
+              {t("about_vision_description")}
             </div>
           </div>
         </div>
@@ -398,15 +385,15 @@ export default function AboutUs() {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <div className="flex md:mt-[110px]  max-w-full md:w-[1300px] mx-auto max-md:w-full ">
-            <div className="md:mx-5 max-md:mt-[70px]  max-md:px-5">
-              <div className="text-[15px] text-white">CONTACTS</div>
+          <div className="flex md:mt-[110px] max-w-full md:w-[1300px] mx-auto max-md:w-full">
+            <div className="md:mx-5 max-md:mt-[70px] max-md:px-5">
+              <div className="text-[15px] text-white">{t("about_contacts_tag")}</div>
               <div className="border-t border-[#635D6FA6] my-4 w-[500px] max-md:w-[335px]"></div>
               <div className="text-[52px] max-md:text-[37px] font-bold mb-14 md:w-[500px] leading-[54.6px]">
-                Want to know more about us?
+                {t("about_contacts_title")}
               </div>
-              <div className="bg-[#BF9B30] h-[48px] w-[163px] rounded flex items-center justify-center ">
-                <div className="text-base font-bold">Send an email 🡢</div>
+              <div className="bg-[#BF9B30] h-[48px] w-[163px] rounded flex items-center justify-center">
+                <div className="text-base font-bold">{t("about_contacts_button")}</div>
               </div>
             </div>
           </div>
