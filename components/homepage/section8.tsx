@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 const linkLogo = [
     {
@@ -51,6 +52,9 @@ const linkLogo = [
     }
 ]
 const HomeSection8 = () => {
+
+    const {t} = useTranslation()
+
     return (
         <section className="py-15 w-full mx-auto dark:bg-[#111111]">
             <h2 className="text-center text-[3.25rem] font-bold mb-8"
@@ -58,7 +62,7 @@ const HomeSection8 = () => {
                     lineHeight: '3.5rem',
                 }}
             >
-                Our Group
+                {t('section8_title')}
             </h2>
             <div 
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
