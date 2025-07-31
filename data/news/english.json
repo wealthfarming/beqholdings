@@ -8650,6 +8650,7 @@
             "url": "https://res.cloudinary.com/dvtuy0whs/image/upload/v1753413546/75ac9994e99c5fc2068d-1920x1411_z69txy.jpg",
             "thumbnailURL": null
         },
+        "cover_image": "https://res.cloudinary.com/dvtuy0whs/image/upload/v1753413546/75ac9994e99c5fc2068d-1920x1411_z69txy.jpg",
         "createdAt": "2025-07-25T02:58:21.687Z",
         "updatedAt": "2025-07-25T02:58:21.687Z"
     },
@@ -9739,6 +9740,7 @@
             "url": "https://res.cloudinary.com/dvtuy0whs/image/upload/v1753414907/image_ew6xur.png",
             "thumbnailURL": null
         },
+        "cover_image": "https://res.cloudinary.com/dvtuy0whs/image/upload/v1753414907/image_ew6xur.png",
         "createdAt": "2025-07-25T03:41:08.714Z",
         "updatedAt": "2025-07-25T03:41:08.714Z"
     },
@@ -11373,6 +11375,7 @@
                 "version": 1
             }
         },
+        "cover_image": "https://res.cloudinary.com/dvtuy0whs/image/upload/v1753418851/HKL_9926-2-1024x683_hrvnwa.jpg",
         "createdAt": "2025-07-25T04:22:35.507Z",
         "updatedAt": "2025-07-25T04:41:14.550Z",
         "image": {
@@ -12306,6 +12309,7 @@
         },
         "createdAt": "2024-11-05T00:00:00.000Z",
         "updatedAt": "2025-07-25T12:04:00.000Z",
+        "cover_image": "https://res.cloudinary.com/dyavs1cdn/image/upload/v1753689719/4X4A6489-1024x719_oqzgzq.webp",
         "image": {
             "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567891",
             "filename": "C4D35533-0CFD-43F2-8234-AB7E90022C56-e1730432767304.png",
@@ -13881,6 +13885,7 @@
         },
         "createdAt": "2024-10-23T00:00:00.000Z",
         "updatedAt": "2025-07-25T12:13:00.000Z",
+        "cover_image": "https://res.cloudinary.com/dyavs1cdn/image/upload/v1753689642/f8299f4f6517dd498406-1024x718_nxvwb9.webp",
         "image": {
             "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567891",
             "filename": "d5f4bb694b31f36faa20.jpg",
@@ -14966,6 +14971,7 @@
         },
         "createdAt": "2024-10-17T00:00:00.000Z",
         "updatedAt": "2025-07-25T15:07:00.000Z",
+        "cover_image": "https://res.cloudinary.com/dyavs1cdn/image/upload/v1753689719/4X4A6489-1024x719_oqzgzq.webp",
         "image": {
             "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567891",
             "filename": "freepik__enhance__68762-scaled.jpeg",
@@ -16151,6 +16157,7 @@
         },
         "createdAt": "2024-10-10T00:00:00.000Z",
         "updatedAt": "2025-07-25T15:22:00.000Z",
+        "cover_image": "https://res.cloudinary.com/dyavs1cdn/image/upload/v1753690056/82f56bb2-b8b9-45f9-9a0c-b44616a37117-1024x768_tpp8wd.webp",
         "image": {
             "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567891",
             "filename": "IMG-5274-1.jpg",
@@ -17019,6 +17026,7 @@
         },
         "createdAt": "2024-08-11T00:00:00.000Z",
         "updatedAt": "2025-07-25T15:44:00.000Z",
+        "cover_image": "https://res.cloudinary.com/dyavs1cdn/image/upload/v1753690217/454898081_122167999136193401_8264655970848285157_n_ujalwb.webp",
         "image": {
             "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567891",
             "filename": "454898081_122167999136193401_8264655970848285157_n.jpg",
@@ -17514,6 +17522,7 @@
         },
         "createdAt": "2024-06-06T00:00:00.000Z",
         "updatedAt": "2025-07-25T15:52:00.000Z",
+        "cover_image": "https://res.cloudinary.com/dyavs1cdn/image/upload/v1753690325/new_image_vaakgs.webp",
         "image": {
             "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567891",
             "filename": "new_image.jpg",
@@ -18342,6 +18351,7 @@
         },
         "createdAt": "2023-07-27T00:00:00.000Z",
         "updatedAt": "2025-07-25T15:58:00.000Z",
+        "cover_image": "https://res.cloudinary.com/dyavs1cdn/image/upload/v1753690412/GTY_child_at_chalkboard_doing_math_jt_140315_16x9_1600-1024x576_zy3u7o.webp",
         "image": {
             "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567891",
             "filename": "placeholder.jpg",
@@ -19300,6 +19310,7 @@
         },
         "createdAt": "2023-07-27T00:00:00.000Z",
         "updatedAt": "2025-07-25T16:07:00.000Z",
+        "cover_image": "https://res.cloudinary.com/dyavs1cdn/image/upload/v1753690412/GTY_child_at_chalkboard_doing_math_jt_140315_16x9_1600-1024x576_zy3u7o.webp",
         "image": {
             "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567891",
             "filename": "placeholder.jpg",
@@ -20014,6 +20025,7 @@
         },
         "createdAt": "2023-07-10T00:00:00.000Z",
         "updatedAt": "2025-07-25T16:18:00.000Z",
+        "cover_image": "https://res.cloudinary.com/dyavs1cdn/image/upload/v1753690412/GTY_child_at_chalkboard_doing_math_jt_140315_16x9_1600-1024x576_zy3u7o.webp",
         "image": {
             "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567891",
             "filename": "GTY_child_at_chalkboard_doing_math_jt_140315_16x9_1600-1.jpg",
@@ -21119,6 +21131,7 @@
         },
         "createdAt": "2023-07-10T00:00:00.000Z",
         "updatedAt": "2025-07-25T16:27:00.000Z",
+        "cover_image": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752637556/post-image-1_ksygho.jpg",
         "image": {
             "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567891",
             "filename": "1704476.jpg",
@@ -21668,6 +21681,7 @@
         },
         "createdAt": "2023-07-10T00:00:00.000Z",
         "updatedAt": "2025-07-25T16:51:00.000Z",
+        "cover_image": "https://res.cloudinary.com/dsq2ux962/image/upload/v1752637556/post-image-1_ksygho.jpg",
         "image": {
             "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567891",
             "filename": "1704476.jpg",
@@ -22491,6 +22505,7 @@
         },
         "createdAt": "2023-07-02T00:00:00.000Z",
         "updatedAt": "2025-07-25T16:57:00.000Z",
+        "cover_image": "https://res.cloudinary.com/dyavs1cdn/image/upload/v1753690809/2766233-1024x576_bbr1pp.webp",
         "image": {
             "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567891",
             "filename": "placeholder.jpg",
@@ -22945,6 +22960,7 @@
         },
         "createdAt": "2023-07-02T00:00:00.000Z",
         "updatedAt": "2025-07-25T17:07:00.000Z",
+        "cover_image": "https://res.cloudinary.com/dyavs1cdn/image/upload/v1753693322/economics-1024x683_seosfn.webp",
         "image": {
             "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567891",
             "filename": "placeholder.jpg",
@@ -23269,6 +23285,7 @@
                 "version": 1
             }
         },
+        "cover_image": "https://res.cloudinary.com/dyavs1cdn/image/upload/v1753691160/ASEAN_hbj9ir.webp",
         "createdAt": "2025-07-25T10:13:36.145Z",
         "updatedAt": "2025-07-25T10:13:36.145Z"
     },
@@ -24232,6 +24249,7 @@
                 "version": 1
             }
         },
+        "cover_image": "https://res.cloudinary.com/dyavs1cdn/image/upload/v1753695523/1533500-1024x576_h262rn.webp",
         "createdAt": "2025-07-25T10:13:36.145Z",
         "updatedAt": "2025-07-25T10:18:00.981Z"
     },
@@ -24783,6 +24801,7 @@
                 "version": 1
             }
         },
+        "cover_image": "https://res.cloudinary.com/dyavs1cdn/image/upload/v1753692648/1091202-768x1536_x3xzjc.webp",
         "createdAt": "2025-07-25T10:27:18.229Z",
         "updatedAt": "2025-07-25T10:27:18.229Z"
     },
@@ -25409,6 +25428,7 @@
                 "version": 1
             }
         },
+        "cover_image": "https://res.cloudinary.com/dyavs1cdn/image/upload/v1753693605/2847970-768x432_gzubx7.webp",
         "createdAt": "2025-07-25T10:33:05.528Z",
         "updatedAt": "2025-07-25T10:33:05.528Z"
     },
@@ -25826,6 +25846,7 @@
         },
         "createdAt": "2023-04-14T00:00:00.000Z",
         "updatedAt": "2025-07-25T17:37:00.000Z",
+        "cover_image": "https://res.cloudinary.com/dyavs1cdn/image/upload/v1753693747/20230425_NgoaiThuongHNU-768x576_nje4t1.webp",
         "image": {
           "id": "c3d4e5f6-7890-1234-cdef-345678901235",
           "filename": "20230424_VietNhatU.png",
